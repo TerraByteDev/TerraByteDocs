@@ -15,7 +15,7 @@ This seemed like an obvious synthesis to explore. This plugin has several depend
 
 * Advanced raid mechanics, placeholders, and rewards.
 * Player island and faction island generation; hooks nicely with a world manager like MyWorlds.
-* Faction generation facilitated by the \[KingdomsX API]\([https://github.com/CryptoMorin/KingdomsX](https://github.com/CryptoMorin/KingdomsX))
+* Faction generation facilitated by the [KingdomsX API](https://github.com/CryptoMorin/KingdomsX)
 * Custom unique currency system called "gems" and a provided (optional) resource pack for them.
 * Much, much more to come!
 
