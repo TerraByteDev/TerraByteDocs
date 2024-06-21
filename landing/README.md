@@ -4,7 +4,7 @@ description: Welcome to the official documentation of TerraByteDev!
 
 # Index
 
-We are an open source development studio that develop next-generation plugins for Minecraft servers.
+We are an open source development studio that develops next-generation plugins for Minecraft servers.
 
 * [GitHub](https://github.com/TerraByteDev)
 * [Discord](https://discord.gg/SwxXMrFdjp)
