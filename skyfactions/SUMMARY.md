@@ -1,3 +1,3 @@
 # Table of contents
 
-* [SkyFactions](README.md)
+* [SkyFactionsReborn](README.md)
