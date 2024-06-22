@@ -22,7 +22,7 @@ Installing the plugin is simple. Just drop the .jar right in your plugins folder
 
 _The plugin will not load without these._
 
-* [KingdomsX](https://github.com/CryptoMorin/KingdomsX) - Provides defenses, factions, resource points, and many other features we use in our plugin.
+* [KingdomsX](https://github.com/CryptoMorin/KingdomsX) - Provides defenses, factions, resource points, and many other features we use in our plugin. You can either build it yourself or join their discord for a released jar.
 * [FastAsyncWorldEdit](https://github.com/IntellectualSites/FastAsyncWorldEdit/) - Faction & Player Island generation. Also just a highly necessary tool for any server. Executes operations asynchronously, so they don't hog the main thread and executes them way faster.
 * [WorldGuard](https://github.com/EngineHub/WorldGuard) - Used for region defining and executing operations within said regions. Also an extremely useful tool on any server.
 
@@ -52,13 +52,19 @@ If you're updating your server, that should be fine. However, never downgrade yo
 ## Incompatibilites
 
 * BetterRTP - It really doesn't make sense to use an RTP plugin on a Skyblock server.
-* Any Factions plugin beside KingdomsX - We have no idea how another Factions plugin whose API we are not using will affect how our plugin functions.
+* Any Factions plugin beside KingdomsX - The use of other faction plugins on the server may result in unintended bugs and limited functionality.
 * Any Skyblock plugin - You do NOT need to install any Skyblock plugin beside SkyFactionsReborn on your server and it will only cause problems if you do so.
+
+{% hint style="info" %}
+Moral of the story:\
+Don't be dumb. Think about what might affect the functionality of this plugin.
+{% endhint %}
 
 ## Reloading
 
 {% hint style="danger" %}
-<mark style="color:red;">**Caution!**</mark> Do not use `/reload` or Plugman to reload this plugin. It could, and probably will, break horribly.
+<mark style="color:red;">**Caution!**</mark> Do not use `/reload` or Plugman(X) to reload this plugin. It will cause unintended functionality of multiple plugins on your server. Always restart your server.
 {% endhint %}
 
-You can reload the configuration files of our plugin using `/sf reload`. Reloading configuration files can take up to 5 seconds to apply.
+You can reload the configuration files of our plugin using `/sf reload`. Reloading configuration files can take up to 5 seconds to apply.\
+Certain configurations require a restart, such as Database configurations.
