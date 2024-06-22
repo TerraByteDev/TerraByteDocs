@@ -1,4 +1,10 @@
 # Table of contents
 
 * [SkyFactionsReborn](README.md)
-* [Installation](installation.md)
+* [Installation](installation/README.md)
+  * [Setup](installation/setup/README.md)
+    * [Database Setup](installation/setup/database-setup.md)
+    * [World Setup](installation/setup/world-setup.md)
+    * [Islands](installation/setup/islands.md)
+    * [Messages](installation/setup/messages.md)
+* [Errors & Debugging](errors-and-debugging.md)
