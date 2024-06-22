@@ -21,4 +21,8 @@ To create void worlds with MyWorlds, you can use the following command:\
 
 This command may vary for your designated world manager. You will need to run this twice (different names) for the worlds.
 
-Make sure to run `/island reload` for changes to take effect.
+Make sure to run `/island reload` for configuration changes to take effect.
+
+{% hint style="info" %}
+After modifying configs, consider validating your .yml configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).
+{% endhint %}

@@ -26,3 +26,7 @@ The origin will be the center of each island region and that is the same positio
 {% endhint %}
 
 Make sure to run `/island reload` for changes to take effect.
+
+{% hint style="info" %}
+After modifying configs, consider validating your .yml configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).
+{% endhint %}

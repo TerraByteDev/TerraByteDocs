@@ -13,4 +13,6 @@ If you want to configure the plugin to use MySQL, head to the `config.yml` and c
 All configurations are located at `plugins/SkyFactionsReborn/`.\
 \
 Modification to the database configuration requires a restart to take effect.
+
+After modifying configs, consider validating your .yml configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).
 {% endhint %}
