@@ -12,10 +12,10 @@ SkyFactions uses [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fastasy
 
 {% hint style="warning" %}
 You must create these schematics yourself!\
-This plugin **does not** offer any pre-built schematics in no shape or form.
+This plugin **does not** offer any pre-built schematics in any shape or form.
 {% endhint %}
 
-You must have two schematics: One for player islands, one for faction islands.\
+You must have two schematics: one for player islands and one for faction islands.\
 (You can alternatively have one island for both player islands & faction islands).\
 \
 These schematics must be placed in `plugins/SkyFactionsReborn/schematics` folder. Configure the names of the schematic files in `config.yml` so that the plugin knows what file to use.

@@ -6,7 +6,7 @@ description: Guide for configuring messages.
 
 ## Message Config
 
-Every message in the plugin (item names, command responses, etc) are all configurable.\
+Every message in the plugin (item names, command responses, etc.) are all configurable.\
 You can find the config at `plugins/SkyFactionsReborn/messages.yml`.
 
 Every entry has a description of what it corresponds to, making configuring all messages easy.
