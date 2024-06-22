@@ -4,9 +4,9 @@ description: Official documentation of SkyFactionsReborn.
 
 # SkyFactionsReborn
 
-## Introduction.
+## Introduction
 
-Welcome to SkyFactionsReborn.\
+Welcome to the documentation for SkyFactionsReborn.\
 This plugin elegantly merges features from Skyblock and Factions.\
 Skyblock, even when played on a big network, can get quite lonely. That's why we combined it with Factions and expanded on the gamemode tenfold.\
 This seemed like an obvious synthesis to explore. This plugin has several dependencies, comes with **MANY** features, but everything is laid out intuitively for the server owner.
