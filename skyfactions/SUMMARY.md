@@ -7,4 +7,5 @@
     * [World Setup](installation/setup/world-setup.md)
     * [Islands](installation/setup/islands.md)
     * [Messages](installation/setup/messages.md)
+    * [Discord](installation/setup/discord.md)
 * [Errors & Debugging](errors-and-debugging.md)
