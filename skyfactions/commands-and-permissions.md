@@ -52,3 +52,12 @@ These commands/permissions are provided to all players by default unless specifi
 | /gems pay \<name> \<count>             | Give another player some of your gems.                                                                                            | skyfactions.gems.pay                                               |
 | /gems help                             | Get help on gem-related commands.                                                                                                 | skyfactions.gems.help                                              |
 
+## General Permissions
+
+These are just a list of permissions that are not tied to commands.
+
+
+
+| Permission                  | Description                                                                                                              |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| skyfactions.cooldown.bypass | Gives people permission to bypass command cooldowns. You should only give this to trusted individuals or during testing. |
