@@ -8,5 +8,5 @@
     * [Islands](installation/setup/islands.md)
     * [Messages](installation/setup/messages.md)
     * [Discord](installation/setup/discord.md)
-* [Commands](commands.md)
+* [Commands & Permissions](commands-and-permissions.md)
 * [Errors & Debugging](errors-and-debugging.md)
