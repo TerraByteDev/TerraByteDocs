@@ -13,4 +13,4 @@ We are an open source development studio that develops next-generation plugins f
 
 You can navigate between our project documentations of:
 
-* [SkyFactions](https://terrabytedev.gitbook.io/skyfactions)
+* [SkyFactions](https://docs.terrabytedev.com/skyfactions)
