@@ -4,6 +4,10 @@ description: Official documentation of SkyFactionsReborn.
 
 # SkyFactionsReborn
 
+{% hint style="warning" %}
+This documentation is still a WIP. Things may change.
+{% endhint %}
+
 ## Introduction
 
 Welcome to the documentation for SkyFactionsReborn.\
