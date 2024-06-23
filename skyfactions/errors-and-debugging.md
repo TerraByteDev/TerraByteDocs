@@ -27,6 +27,7 @@ Compare the debug messages from any error messages you receive here.
 * `SQL_RAID_COOLDOWN_GET` - This is a database error. The plugin failed to get a player's raid cooldown.
 * `SQL_RAID_UPDATE` - This is a database error. The plugin failed to update a player's last raid timestamp.
 * `SQL_ISLAND_CREATE` - This is a database error. The plugin failed to create a new island.
+* `SQL_ISLAND_DELETE` - This is a database error. The plugin failed to delete a player's island.
 * `SQL_RAID_START` - This is a database error. The plugin failed to initialise a raid.
 * `SQL_ISLAND_COOLDOWN` - This is a database error. The plugin failed to update an island's last raided timestamp.
 * `SQL_RAIDABLE_GET` - This is a database error. The plugin failed to get a raidable island.
