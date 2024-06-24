@@ -31,6 +31,9 @@ Compare the debug messages from any error messages you receive here.
 * `SQL_RAID_START` - This is a database error. The plugin failed to initialise a raid.
 * `SQL_ISLAND_COOLDOWN` - This is a database error. The plugin failed to update an island's last raided timestamp.
 * `SQL_RAIDABLE_GET` - This is a database error. The plugin failed to get a raidable island.
+* `SQL_TRUST_ADD` - This is a database error. The plugin failed to add a player's trust for another island.
+* `SQL_TRUST_REMOVE` - This is a database error. The plugin failed to untrust a player for another island.
+* `SQL_TRUST_GET` - This is a database error. The plugin failed to check if a player was trusted for an island.
 * `WORLD_NOT_EXIST` - This is (typically) a configuration error. The plugin failed to get a world from the configured world name. You will have to use the `%operation%` placeholder to see in what context and check the configuration related to that.
 * `FAWE_ISLAND_PASTE` - This is a FAWE error. FAWE failed to paste an island.
 * `FAWE_ISLAND_SAVE` - This is a FAWE error. FAWE failed to save an island as a schematic.
