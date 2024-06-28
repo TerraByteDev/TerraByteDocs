@@ -40,6 +40,7 @@ Compare the debug messages from any error messages you receive here.
 * `ISLAND_RETURNED_NULL` - This is a general error, when the plugin tries to randomly select a raidable island. **This should typically never happen!**&#x20;
 * `MAIN_RAID_START` - This is a general error. The plugin failed to start an entire raid.
 * `MAIN_RAID_COUNTDOWN` - This is a general error. The plugin failed to complete the countdown for  the raid. **This should typically never happen!**
+* `GUI_LOAD_EXCEPTION` This is a GUI error. The plugin failed to display a GUI for the player.
 
 {% hint style="info" %}
 In some cases, such as upon startup, you won't receieve any of these debug messages.\

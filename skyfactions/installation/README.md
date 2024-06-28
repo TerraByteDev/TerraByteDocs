@@ -14,7 +14,7 @@ Installing the plugin is simple. Just drop the .jar right in your plugins folder
 * **Java 21** -> if running on Minecraft 1.21
 * **Minecraft Edition** - Java Edition running Spigot, Paper (recommended) or its forks Pufferfish or Purpur. This plugin will not work on Bukkit. We don't know if this software will run on Folia or any other non-production experimental software. If you have a server network running on Bungeecord, Waterfall, Velocity, etc. just place the plugin in the backend server.
 * **Version** - Currently, this plugin is only built for Minecraft 1.21, but backwards compatibility will be explored in future releases.
-* **Hardware** - For a medium sized server, it is highly recommended to use at least 4 GB of RAM. Some of our dependencies and operations (especially [KingdomsX](https://github.com/koca2000/NoteBlockAPI)) can be resource intensive and choke old CPUs. However, we prioritized performing as many checks and operations asynchronously when possible, so you shouldn't notice performance issues.
+* **Hardware** - For a medium sized server, it is highly recommended to use at least 4 GB of RAM. Some of our dependencies and operations can be resource intensive and choke old CPUs. However, we prioritized performing as many checks and operations asynchronously when possible, so you shouldn't notice performance issues.
 
 ## Dependencies
 
@@ -22,7 +22,6 @@ Installing the plugin is simple. Just drop the .jar right in your plugins folder
 
 _The plugin will not load without these._
 
-* [KingdomsX](https://github.com/CryptoMorin/KingdomsX) - Provides defenses, factions, resource points, and many other features we use in our plugin. You can either build it yourself or join their discord for a released jar.
 * [FastAsyncWorldEdit](https://github.com/IntellectualSites/FastAsyncWorldEdit/) - Faction & Player Island generation. Also just a highly necessary tool for any server. Executes operations asynchronously, so they don't hog the main thread and executes them way faster.
 * [WorldGuard](https://github.com/EngineHub/WorldGuard) - Used for region defining and executing operations within said regions. Also an extremely useful tool on any server.
 
@@ -52,7 +51,7 @@ If you're updating your server, that should be fine. However, never downgrade yo
 ## Incompatibilites
 
 * BetterRTP - It really doesn't make sense to use an RTP plugin on a Skyblock server.
-* Any Factions plugin beside KingdomsX - The use of other faction plugins on the server may result in unintended bugs and limited functionality.
+* Any Factions plugin - The use of other faction plugins on the server may result in unintended bugs and limited functionality.
 * Any Skyblock plugin - You do NOT need to install any Skyblock plugin beside SkyFactionsReborn on your server and it will only cause problems if you do so.
 
 {% hint style="info" %}
