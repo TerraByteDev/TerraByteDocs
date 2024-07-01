@@ -24,6 +24,7 @@ _The plugin will not load without these._
 
 * [FastAsyncWorldEdit](https://github.com/IntellectualSites/FastAsyncWorldEdit/) - Faction & Player Island generation. Also just a highly necessary tool for any server. Executes operations asynchronously, so they don't hog the main thread and executes them way faster.
 * [WorldGuard](https://github.com/EngineHub/WorldGuard) - Used for region defining and executing operations within said regions. Also an extremely useful tool on any server.
+* [Vault](https://www.spigotmc.org/resources/vault.34315/) - Requires for economy related features. Many common plugins (e.g. Essentials) hook into this plugin.
 
 ### Soft Dependencies
 
@@ -46,11 +47,11 @@ If you're updating your server, that should be fine. However, never downgrade yo
 * [MyWorlds](https://github.com/bergerhealer/MyWorlds) - Or any world manager for that matter, although SkyFactionsReborn was built with MyWorlds in mind. It's by far the most stable world manager on the market.
 * [LuckPerms](https://luckperms.net/download) - Running a server without LuckPerms in 2024? Couldn't be me.
 * [DiscordSRV](https://github.com/DiscordSRV/DiscordSRV) - A great plugin to link Discord and Minecraft together seamlessly. Not necessarily required for the webhook feature, but useful nonetheless.
-* [EssentialsX](https://github.com/EssentialsX/Essentials) - Necessary to use SkyFactionsReborn's economy features.
+* [EssentialsX](https://github.com/EssentialsX/Essentials) - Necessary to use SkyFactionsReborn's economy features. Hooks into Vault, a required dependency of this plugin.
 
 ## Incompatibilites
 
-* BetterRTP - It really doesn't make sense to use an RTP plugin on a Skyblock server.
+* BetterRTP - It really doesn't make sense to use an RTP plugin on a Skyblock server. If you have any need for it, disable its use in the island world(s).
 * Any Factions plugin - The use of other faction plugins on the server may result in unintended bugs and limited functionality.
 * Any Skyblock plugin - You do NOT need to install any Skyblock plugin beside SkyFactionsReborn on your server and it will only cause problems if you do so.
 
