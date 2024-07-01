@@ -18,7 +18,7 @@ Installing the plugin is simple. Just drop the .jar right in your plugins folder
 
 ## Dependencies
 
-### Hard Dependencies
+### Required Dependencies
 
 _The plugin will not load without these._
 
@@ -29,7 +29,7 @@ _The plugin will not load without these._
 
 Adds extra features to the plugin, but the plugin will automatically detect if they aren't installed and proceed without them with no issues.
 
-* [Jukebox](https://github.com/SkytAsul/JukeBox) - Used for providing raid music.
+* [Jukebox](https://github.com/SkytAsul/JukeBox) - Hooks into JukeBox to stop any music to allow for raid music.
 * [NoteblockAPI](https://github.com/koca2000/NoteBlockAPI) - A dependency for Jukebox itself, also used for providing raid music.
 * [PlaceholderAPI](https://github.com/koca2000/NoteBlockAPI) - If for some reason a server owner has no reason to use placeholders, this isn't a required dependency.
 
