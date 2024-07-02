@@ -10,4 +10,6 @@
     * [Discord](installation/setup/discord.md)
     * [Economy](installation/setup/economy.md)
 * [Commands & Permissions](commands-and-permissions.md)
+* [GUIs](guis/README.md)
+  * [Custom Skulls](guis/custom-skulls.md)
 * [Errors & Debugging](errors-and-debugging.md)
