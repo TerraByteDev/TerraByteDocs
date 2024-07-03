@@ -11,7 +11,7 @@ The GUI configuration system allows you to use customised skulls in your GUIs.
 ITEMS:
   CONFIRM:
     char: "y" # This is the character to use in the LAYOUT!
-    material: "LIME_TERRACOTTA"
+    material: "LIME_TERRACOTTA" # Must be a valid material. See https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
     skull: "" # You can set custom skull textures (e.g. from minecraft-heads.com). 'material' MUST BE SET TO 'PLAYER_HEAD'
     text: "&a&lConfirm"
     sound: "ui.button.click" # Sound played when the item is clicked. Set to 'none' to disable.
