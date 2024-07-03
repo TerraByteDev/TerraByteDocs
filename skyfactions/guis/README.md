@@ -99,7 +99,7 @@ LAYOUT:
 ```
 {% endcode %}
 
-Each "entry" in the `LAYOUT` variable is a new line.\
+Each "entry" / line in the `LAYOUT` variable is a new row in the GUI.\
 There can, of course, only be a maximum of 54 slots (9 wide, 6 rows).\
 You cannot have rows of different lengths.
 
