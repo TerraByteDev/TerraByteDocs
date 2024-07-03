@@ -115,7 +115,7 @@ The majority of this information is explained in the comments in the YAML files.
 
 ## Items
 
-You are offered extensive configuration, including configuration of the items used in each GUI.
+You are offered extensive configuration, including the option to modify the items used in each GUI.
 
 {% code title="Island Creation GUI Configuration" %}
 ```yaml
