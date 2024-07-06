@@ -4,7 +4,9 @@ description: A description of the important administrative system known as the O
 
 # Obelisk
 
-The Obelisk is a block with configurable CustomModelData that can be used on either a player island or faction island to do many important tasks. When you create an island, you will be asked to place the Obelisk in a location of your choosing. The Obelisk MUST be placed before you can break/place blocks. If no location is selected within 5 minutes, the Obelisk will be placed at a configurable location near the origin point of the island.
+The Obelisk is a block with configurable CustomModelData that can be used on either a player island or faction island to do many important tasks. When you create an island, the Obelisk will be place at the location specified in the config:\
+`SPAWN_OFFSET: [1, 0, 0]`\
+The above default value indicates that the Obelisk will be placed one block in the positive X direction from the origin point (the place where you did `//copy` when you created the island schematic.) This is true for player islands and faction islands.
 
 An island owner can move the Obelisk at any time, but a 5 minute timeout will start which will place the Obelisk back at its previous location if it's not placed down again. The Obelisk will also be placed down automatically if the island owner leaves the island or the server. If a player or faction is challenged to a raid, and the Obelisk is not placed, it will automatically be placed then as well.
 
