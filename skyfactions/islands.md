@@ -12,7 +12,7 @@ The primary concept behind the Skyblock genre is the generation of sky islands. 
 
 A "cell" within your `player_island` world contains its own world border, to separate it from other islands and limit the expansion. This system will respect your world border, and you can expand the amount of islands as needed.
 
-Using the Obelisk, a block with a CustomModelData value, a player can administrate the island to add defenses, view stats, among other configurations. If you are familiar with WorldEdit/FAWE, you can change the schematic of islands to your liking.
+Using the Obelisk, a block with a CustomModelData value, a player can administrate the island to add defenses and view stats, among other configurations. If you are familiar with WorldEdit/FAWE, you can change the schematic of islands to your liking.
 
 ## Faction Islands
 
