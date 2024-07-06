@@ -5,11 +5,9 @@ description: Guide through GUIs and its configuration.
 # GUIs
 
 GUIs are often used in this plugin to offer a appealing interface for players to use.\
-Examples of this is Island Creation, Raiding, and the Obelisk.
+Examples of these are Island Creation, Raiding, and the Obelisk.
 
-These GUIs offer extensive customisation.
-
-
+These GUIs offer extensive customization.
 
 Example GUI config (Island Creation):
 
@@ -76,8 +74,6 @@ ITEMS:
 ```
 {% endcode %}
 
-
-
 ## GUI "Layout"
 
 You are offered extensive configuration, including the layout of the GUI.
@@ -110,8 +106,6 @@ Any other characters corresponds to the items (See [#items](./#items "mention"))
 {% hint style="info" %}
 The majority of this information is explained in the comments in the YAML files.
 {% endhint %}
-
-
 
 ## Items
 

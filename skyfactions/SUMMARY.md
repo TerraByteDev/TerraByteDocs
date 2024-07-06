@@ -9,6 +9,7 @@
     * [Messages](installation/setup/messages.md)
     * [Discord](installation/setup/discord.md)
     * [Economy](installation/setup/economy.md)
+* [Islands](islands.md)
 * [Commands & Permissions](commands-and-permissions.md)
 * [GUIs](guis/README.md)
   * [Custom Skulls](guis/custom-skulls.md)
