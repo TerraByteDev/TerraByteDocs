@@ -14,7 +14,7 @@ During a raid, one of the requirements to complete the raid is to mine the Obeli
 
 ## Using the Obelisk
 
-Clicking on the Obelisk will bring up a main menu [GUI](guis/) that can be used to administrate the island or a player's faction. In this GUI you can do several things, including:\
+Clicking on the Obelisk will bring up a main menu [GUI](../installation/configuration/guis/) that can be used to administrate the island or a player's faction. In this GUI you can do several things, including:\
 \- Buy or upgrade defenses\
 \- View stats on your island\
 \- In a faction, you can use it to promote/demote players, change faction relationships, and more\

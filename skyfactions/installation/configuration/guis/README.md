@@ -163,7 +163,7 @@ Each item has the same customisability:
 
 `skull` - You can set custom skull textures, permitting the `material` is set to `PLAYER_HEAD`. You should paste the skin texture value (Base64). See [custom-skulls.md](custom-skulls.md "mention")for more information.
 
-`text` - You can customise the custom text that each item has. This supports colour codes, with the same formatting as [#text-colours-rgb](../installation/setup/messages.md#text-colours-rgb "mention").
+`text` - You can customise the custom text that each item has. This supports colour codes, with the same formatting as [#text-colours-rgb](../../setup/messages.md#text-colours-rgb "mention").
 
 `sound` - This allows you to trigger a sound when the item is clicked. An empty string will not play any sound. This supports both custom sound identifiers, and [the built in sound effects](https://www.digminecraft.com/lists/sound\_list\_pc.php).
 
