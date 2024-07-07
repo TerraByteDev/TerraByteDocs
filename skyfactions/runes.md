@@ -10,7 +10,7 @@ The first section simply allows you to change the base reward for runes given. N
 
 ## Default Runes Configuration File
 
-```
+```yaml
 # ____ _  _ _  _ ____ ____
 # |__/ |  | |\ | |___ [__
 # |  \ |__| | \| |___ ___]
@@ -94,3 +94,7 @@ OVERRIDES:
   ANCIENT_DEBRIS: 20
   NETHERITE_BLOCK: 810
 ```
+
+{% hint style="info" %}
+After modifying configs, consider validating your .yml configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).
+{% endhint %}

@@ -4,7 +4,7 @@ description: A description of the important administrative system known as the O
 
 # Obelisk
 
-The Obelisk is a block with configurable CustomModelData that can be used on either a player island or faction island to do many important tasks. When you create an island, the Obelisk will be place at the location specified in the config:\
+The Obelisk is a block with configurable CustomModelData that can be used on either a player island or faction island to do many important tasks. When you create an island, the Obelisk will be place at the location specified in the `obelisk.yml` config:\
 `SPAWN_OFFSET: [1, 0, 0]`\
 The above default value indicates that the Obelisk will be placed one block in the positive X direction from the origin point (the place where you did `//copy` when you created the island schematic.) This is true for player islands and faction islands.
 
