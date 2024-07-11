@@ -41,6 +41,7 @@ Compare the debug messages from any error messages you receive here.
 * `MAIN_RAID_START` - This is a general error. The plugin failed to start an entire raid.
 * `MAIN_RAID_COUNTDOWN` - This is a general error. The plugin failed to complete the countdown for  the raid. **This should typically never happen!**
 * `GUI_LOAD_EXCEPTION` This is a GUI error. The plugin failed to display a GUI for the player.
+* `FACTION_MEMBER_UNKNOWN` - This is more of a general error. This would be something like you try kick a player from the Faction just after they leave (for example).
 
 {% hint style="info" %}
 In some cases, such as upon startup, you won't receieve any of these debug messages.\
