@@ -28,6 +28,7 @@ The "Lord" is the owner of the Faction. They have all privileges, including:
 * Pays lower / no taxes & higher rewards \[TBC]
 * Transfer faction ownership
 * Donate runes (via item conversion)
+* Manage Invites & Manage Join Requests
 
 ## Duke
 
@@ -43,6 +44,7 @@ They have many privileges, including:
 * Declare war on other Factions
 * Pays lower taxes & higher rewards
 * Donate runes (via item conversion)
+* Manage Invites & Manage Join Requests
 
 ## Baron
 
@@ -54,6 +56,7 @@ They have some privileges, including:
 * Pays lower taxes & higher rewards
 * Kick Faction members
 * Donate runes (via item conversion)
+* Manage Invites & Manage Join Requests
 
 ## Knight
 
