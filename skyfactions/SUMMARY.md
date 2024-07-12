@@ -13,6 +13,7 @@
   * [Configuration](installation/configuration/README.md)
     * [GUIs](installation/configuration/guis/README.md)
       * [Custom Skulls](installation/configuration/guis/custom-skulls.md)
+      * [Paginated GUIs](installation/configuration/guis/paginated-guis.md)
 * [Mechanics](mechanics/README.md)
   * [Islands](mechanics/islands.md)
   * [Obelisk](mechanics/obelisk.md)
