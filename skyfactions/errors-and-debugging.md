@@ -36,7 +36,7 @@ Compare the debug messages from any error messages you receive here.
 * `SQL_TRUST_GET` - This is a database error. The plugin failed to check if a player was trusted for an island.
 * `WORLD_NOT_EXIST` - This is (typically) a configuration error. The plugin failed to get a world from the configured world name. You will have to use the `%operation%` placeholder to see in what context and check the configuration related to that.
 * `FAWE_ISLAND_PASTE` - This is a FAWE error. FAWE failed to paste an island.
-* `FAWE_ISLAND_SAVE` - This is a FAWE error. FAWE failed to save an island as a schematic.
+* `SCHEMATIC_NOT_EXIST` - This is a File error. The plugin failed to retrieve the schematic. See log for details.
 * `ISLAND_RETURNED_NULL` - This is a general error, when the plugin tries to randomly select a raidable island. **This should typically never happen!**&#x20;
 * `MAIN_RAID_START` - This is a general error. The plugin failed to start an entire raid.
 * `MAIN_RAID_COUNTDOWN` - This is a general error. The plugin failed to complete the countdown for  the raid. **This should typically never happen!**
