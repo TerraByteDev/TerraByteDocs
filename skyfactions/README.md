@@ -13,14 +13,15 @@ This documentation is still a WIP. Things may change.
 Welcome to the documentation for SkyFactionsReborn.\
 This plugin elegantly merges features from Skyblock and Factions.\
 Skyblock, even when played on a big network, can get quite lonely. That's why we combined it with Factions and expanded on the gamemode tenfold.\
-This seemed like an obvious synthesis to explore. This plugin has several dependencies, comes with **MANY** features, but everything is laid out intuitively for the server owner.
+This seemed like an obvious synthesis to explore. This plugin has a few dependencies, comes with **MANY** features, but everything is laid out intuitively for the server owner.
 
 ## Features
 
 * Advanced raid mechanics, placeholders, and rewards.
 * Player island and faction island generation; hooks nicely with a world manager like MyWorlds.
 * Custom unique currency system called "gems" and a provided (optional) resource pack for them.
-* Much, much more to come!
+* Easy to understand configuration, including GUIs, rewards, and messages.
+* The opportunity for a wide range of customizations, to make the server you always dreamed of!
 
 ## Links
 

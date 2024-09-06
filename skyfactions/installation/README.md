@@ -44,7 +44,7 @@ If you're updating your server, that should be fine. However, never downgrade yo
 
 ## Additional Plugin Recommendations
 
-* [MyWorlds](https://github.com/bergerhealer/MyWorlds) - Or any world manager for that matter, although SkyFactionsReborn was built with MyWorlds in mind. It's by far the most stable world manager on the market.
+* [MyWorlds](https://github.com/bergerhealer/MyWorlds) - Or any world manager for that matter, although SkyFactionsReborn was built with MyWorlds in mind. It's the most stable world manager on the market.
 * [LuckPerms](https://luckperms.net/download) - Running a server without LuckPerms in 2024? Couldn't be me.
 * [DiscordSRV](https://github.com/DiscordSRV/DiscordSRV) - A great plugin to link Discord and Minecraft together seamlessly. Not necessarily required for the webhook feature, but useful nonetheless.
 * [EssentialsX](https://github.com/EssentialsX/Essentials) - Necessary to use SkyFactionsReborn's economy features. Hooks into Vault, a required dependency of this plugin.
