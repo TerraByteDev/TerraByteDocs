@@ -42,7 +42,7 @@ apt install certbot python3-certbot-nginx
 First, git clone the repository to download all the necessary files. On Ubuntu, `/home/ubuntu` isn't a bad directory to install it in, but you may want to create a new directory like `tools` or something and `cd` into it.
 
 ```
-git clone https://github.com/JerichoTorrent/SkyFactions-web
+git clone https://github.com/JerichoTorrent/SkyFactions-web.git
 cd SkyFactions-web/web-interface
 ```
 
