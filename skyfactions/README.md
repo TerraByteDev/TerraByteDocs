@@ -4,6 +4,8 @@ description: Official documentation of SkyFactionsReborn.
 
 # SkyFactionsReborn
 
+<figure><img src=".gitbook/assets/SkyFactions2.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="warning" %}
 This documentation is still a WIP. Things may change.
 {% endhint %}
@@ -27,6 +29,3 @@ This seemed like an obvious synthesis to explore. This plugin has a few dependen
 
 * [Discord](https://discord.gg/SwxXMrFdjp) - For general questions, support, and discussion of the plugin. For bug reports, [make an issue](https://github.com/TerraByteDev/SkyFactionsReborn/issues).
 * [Torrent Network](https://www.torrentsmp.com/) - The first server to use this plugin!
-
-
-
