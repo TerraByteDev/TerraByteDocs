@@ -36,6 +36,10 @@ Compare the debug messages from any error messages you receive here.
 * `SQL_TRUST_ADD` - This is a database error. The plugin failed to add a player's trust for another island.
 * `SQL_TRUST_REMOVE` - This is a database error. The plugin failed to untrust a player for another island.
 * `SQL_TRUST_GET` - This is a database error. The plugin failed to check if a player was trusted for an island.
+* `SQL_FACTION_GET` - This is a database error. The plugin failed to get a Faction from a player.
+* `SQL_FACTION_CREATE` - This is a database error. The plugin failed to create a Faction.
+* `SQL_FACTION_KICK` - This is a database error. The plugin failed to kick a player from a Faction.
+* `SQL_FACTION_BAN` - This is a database error. The plugin failed to ban a player from a Faction.
 * `WORLD_NOT_EXIST` - This is (typically) a configuration error. The plugin failed to get a world from the configured world name. You will have to use the `%operation%` placeholder to see in what context and check the configuration related to that.
 * `FAWE_ISLAND_PASTE` - This is a FAWE error. FAWE failed to paste an island.
 * `SCHEMATIC_NOT_EXIST` - This is a File error. The plugin failed to retrieve the schematic. See log for details.
