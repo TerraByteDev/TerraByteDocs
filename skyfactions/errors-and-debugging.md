@@ -23,6 +23,8 @@ Compare the debug messages from any error messages you receive here.
 * `SQL_DISCORD_UNLINK` - This is a database error. The plugin failed to remove a player's discord link.
 * `SQL_GEMS_MODIFY` - This is a database error. The plugin failed to modify a player's gem count.
 * `SQL_GEMS_GET` - This is a database error. The plugin failed to get a player's gem count.
+* `SQL_RUNES_GET` - This is a database error. The plugin failed to get a player's rune count.
+* `SQL_RUNES_MODIFY` - This is a database error. The plugin failed to modify a player's rune count.
 * `SQL_ISLAND_CHECK` - This is a database error. The plugin failed to check if a player has an island.
 * `SQL_RAID_COOLDOWN_GET` - This is a database error. The plugin failed to get a player's raid cooldown.
 * `SQL_RAID_UPDATE` - This is a database error. The plugin failed to update a player's last raid timestamp.
