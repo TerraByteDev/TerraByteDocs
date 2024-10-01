@@ -43,6 +43,7 @@ Compare the debug messages from any error messages you receive here.
 * `SQL_FACTION_KICK` - This is a database error. The plugin failed to kick a player from a Faction.
 * `SQL_FACTION_BAN` - This is a database error. The plugin failed to ban a player from a Faction.
 * `SQL_JOIN_REQUEST_ACCEPT` - This is a database error. The plugin failed to accept a Faction join request and add a player to the Faction.
+* `SQL_JOIN_REQUEST_CREATE` - This is a database error. The plugin failed to create a new Join Request.
 * `SQL_JOIN_REQUEST_REVOKE` - This is a database error. The plugin failed to reject a join request.
 * `SQL_JOIN_REQUEST_GET` - This is a database error. The plugin failed to get a join request (or more).
 * `SQL_NOTIFICATION_REMOVE` - This is a database error. The plugin failed to remove a notification.
