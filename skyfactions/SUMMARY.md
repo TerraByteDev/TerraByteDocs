@@ -20,5 +20,6 @@
   * [Runes](mechanics/runes.md)
   * [Factions](mechanics/factions/README.md)
     * [Faction Ranks / Titles](mechanics/factions/faction-ranks-titles.md)
+  * [Defences](mechanics/defences.md)
 * [Errors & Debugging](errors-and-debugging.md)
 * [SkyFactions-web](skyfactions-web.md)
