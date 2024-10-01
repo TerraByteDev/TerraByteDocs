@@ -46,6 +46,7 @@ Compare the debug messages from any error messages you receive here.
 * `SQL_JOIN_REQUEST_REVOKE` - This is a database error. The plugin failed to reject a join request.
 * `SQL_JOIN_REQUEST_GET` - This is a database error. The plugin failed to get a join request (or more).
 * `SQL_NOTIFICATION_REMOVE` - This is a database error. The plugin failed to remove a notification.
+* `SQL_NOTIFICATION_GET` - This is a database error. The plugin failed to get notifications.
 * `SQL_INVITE_GET` - This is a database error. The plugin failed to fetch invites.
 * `SQL_INVITE_DENY` - This is a database error. The plugin failed to deny an invite.
 * `WORLD_NOT_EXIST` - This is (typically) a configuration error. The plugin failed to get a world from the configured world name. You will have to use the `%operation%` placeholder to see in what context and check the configuration related to that.
