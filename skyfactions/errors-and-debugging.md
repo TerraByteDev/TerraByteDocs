@@ -14,7 +14,9 @@ This is why we offer extensive documentation and quality support for any issues 
 When players run commands that results in an error, they will be given a debug message.
 
 {% hint style="warning" %}
-This assumes you have not removed the `%debug%` placeholder from your `ERROR` message configuration in `messages.yml`!
+This assumes you have not removed the `%debug%` placeholder from your `ERROR` message configuration in `messages.yml`!\
+\
+In every case, you should [make a GIthub issue](https://github.com/TerraByteDev/SkyFactionsReborn/issues) or [report it in our Discord!](https://discord.com/invite/SwxXMrFdjp)
 {% endhint %}
 
 Compare the debug messages from any error messages you receive here.
@@ -40,6 +42,12 @@ Compare the debug messages from any error messages you receive here.
 * `SQL_FACTION_CREATE` - This is a database error. The plugin failed to create a Faction.
 * `SQL_FACTION_KICK` - This is a database error. The plugin failed to kick a player from a Faction.
 * `SQL_FACTION_BAN` - This is a database error. The plugin failed to ban a player from a Faction.
+* `SQL_JOIN_REQUEST_ACCEPT` - This is a database error. The plugin failed to accept a Faction join request and add a player to the Faction.
+* `SQL_JOIN_REQUEST_REVOKE` - This is a database error. The plugin failed to reject a join request.
+* `SQL_JOIN_REQUEST_GET` - This is a database error. The plugin failed to get a join request (or more).
+* `SQL_NOTIFICATION_REMOVE` - This is a database error. The plugin failed to remove a notification.
+* `SQL_INVITE_GET` - This is a database error. The plugin failed to fetch invites.
+* `SQL_INVITE_DENY` - This is a database error. The plugin failed to deny an invite.
 * `WORLD_NOT_EXIST` - This is (typically) a configuration error. The plugin failed to get a world from the configured world name. You will have to use the `%operation%` placeholder to see in what context and check the configuration related to that.
 * `FAWE_ISLAND_PASTE` - This is a FAWE error. FAWE failed to paste an island.
 * `SCHEMATIC_NOT_EXIST` - This is a File error. The plugin failed to retrieve the schematic. See log for details.
