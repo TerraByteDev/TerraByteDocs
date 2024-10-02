@@ -9,6 +9,11 @@ Examples of these are Island Creation, Raiding, and the Obelisk.
 
 These GUIs offer extensive customization.
 
+{% hint style="warning" %}
+Different types of GUIs have different placeholders for certain items!\
+Make sure to read the comments in every file when editing!
+{% endhint %}
+
 Example GUI config (Island Creation):
 
 {% code title="Island Creation GUI Configuration" %}
