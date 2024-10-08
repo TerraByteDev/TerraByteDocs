@@ -25,6 +25,7 @@ _The plugin will not load without these._
 * [FastAsyncWorldEdit](https://github.com/IntellectualSites/FastAsyncWorldEdit/) - Faction & Player Island generation. Also just a highly necessary tool for any server. Executes operations asynchronously, so they don't hog the main thread and executes them way faster.
 * [WorldGuard](https://github.com/EngineHub/WorldGuard) - Used for region defining and executing operations within said regions. Also an extremely useful tool on any server.
 * [Vault](https://www.spigotmc.org/resources/vault.34315/) - Requires for economy related features. Many common plugins (e.g. Essentials) hook into this plugin.
+* [WorldBorderAPI ](https://www.spigotmc.org/resources/player-worldborder-api.67734/)- Required for creating worldborders.
 
 ### Soft Dependencies
 
