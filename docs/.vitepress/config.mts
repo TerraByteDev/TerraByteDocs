@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "TerraByteDev Documentation",
   description: "The official documentation of TerraByteDev.",
+  base: "/",
   ignoreDeadLinks: true,
   themeConfig: {
     logo: "/assets/TBLogo.png",
