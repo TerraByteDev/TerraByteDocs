@@ -1,9 +1,9 @@
 ---
-description: Information concerning the Factions mechanic.
+description: Guide through the Factions.
 ---
 
-# Factions Overview
-Factions is one of the most important features of SkyFactions.
-It allows multiple individuals to group together and start another island (on top of their private, individual islands), raid other Factions and more.
+# Factions
 
-By default, it costs **100 Runes** to create a Faction, which is configurable in the `config.yml`.
+Factions is one of the key principles of the gameplay SkyFactions provides, and therefore has many features.\
+\
+See the following sub-pages for further information.

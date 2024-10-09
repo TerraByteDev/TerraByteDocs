@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: SkyFactions Docs
-      link: /skyfactions/README
+      link: /skyfactions/overview
     - theme: alt
       text: About Us
       link: /about_us
