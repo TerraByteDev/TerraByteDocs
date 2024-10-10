@@ -24,10 +24,14 @@ features:
   - icon: 🖥️
     title: Ease of Use
     details: "We focus on ease of use and simplicity for all of our tools."
+    link: /skyfactions/overview.md
+    linkText: View our Documentation
 
   - icon: 🆘
     title: "Premium Support"
     details: "We offer extensive support for all users of our plugins and tools."
+    link: https://discord.gg/Y7DVR9gpwa
+    linkText: Join our Discord
 ---
 
 > [!CAUTION]

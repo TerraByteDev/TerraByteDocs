@@ -4,6 +4,7 @@ export default defineConfig({
   title: "TerraByteDev Documentation",
   description: "The official documentation of TerraByteDev.",
   base: "/",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   ignoreDeadLinks: true,
   themeConfig: {
     logo: "/assets/TBLogo.png",
