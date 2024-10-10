@@ -8,6 +8,10 @@ SkyFactions has integration with Discord, for pinging discord users when they ar
 \
 To use this functionality, you must create a Discord Bot.
 
+:::info
+This is optional! Leaving the discord system as disabled will not cause any issues.
+:::
+
 ## Create a Discord Bot
 
 Head to the [Discord Developer Portal](https://discord.com/developers/applications), and click `New Application`.\

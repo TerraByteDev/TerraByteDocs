@@ -11,7 +11,7 @@ At this point in time, SkyFactions does not automatically create these worlds fo
 By default, the player islands world name defaults to `player_islands` and `faction_islands` for faction islands. This is all configurable in the `config.yml`.
 
 :::danger
-We do not recommend using MultiVerse. They have various bugs and certain things (such as how they store inventories) make it very difficult to migrate from.
+We do not recommend using MultiVerse. They have various bugs and certain things (such as how they store inventories in a proprietary format) make it very difficult to migrate from.
 :::
 
 To create void worlds with MyWorlds, you can use the following command:\

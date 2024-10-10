@@ -12,8 +12,8 @@ This is a general overview of the commands and permissions present in this plugi
 | Command | Description | Permission |
 |---------|-------------|------------|
 | `/sf reload` | Reload the configuration files | `skyfactions.reload` |
-| `/sf create $2<br>Sub-arguments: player, faction` | Force create an island. Specify whether you're creating a player island or faction island, then use another argument for the player name (it should tab-complete) | `skyfactions.admin.create` |
-| `/sf delete $2<br>Sub-arguments: player, faction` | Force deletes an island. Specify whether you're deleting a player island or faction island, then use another argument for the player name (it should tab-complete) | `skyfactions.admin.delete` |
+| `/sf create <player/faction> <player> <factionName>` | Force create an island. Specify whether you're creating a player island or faction island, then use another argument for the player name, and faction name if applicable.| `skyfactions.admin.create` |
+| `/sf delete <player/faction> <player name / faction name>` | Force deletes an island. Specify whether you're deleting a player island or faction island, then use another argument for the player / faction name. | `skyfactions.admin.delete` |
 
 ## Player Commands & Permissions
 
