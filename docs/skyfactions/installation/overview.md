@@ -10,8 +10,7 @@ Installing the plugin is simple. Just drop the .jar right in your plugins folder
 
 ## System Requirements
 
-* **Java 17** -> if running on Minecraft 1.20.x or below
-* **Java 21** -> if running on Minecraft 1.21
+* **Java 21** -> This plugin currently only supports 1.21, which requires Java 21.
 * **Minecraft Edition** - Java Edition running Spigot, Paper (recommended) or its forks Pufferfish or Purpur. This plugin will not work on Bukkit. We don't know if this software will run on Folia or any other non-production experimental software. If you have a server network running on Bungeecord, Waterfall, Velocity, etc. just place the plugin in the backend server.
 * **Version** - Currently, this plugin is only built for Minecraft 1.21, but backwards compatibility will be explored in future releases.
 * **Hardware** - For a medium sized server, it is highly recommended to use at least 4 GB of RAM. Some of our dependencies and operations can be resource intensive and choke old CPUs. However, we prioritized performing as many checks and operations asynchronously when possible, so you shouldn't notice performance issues.
