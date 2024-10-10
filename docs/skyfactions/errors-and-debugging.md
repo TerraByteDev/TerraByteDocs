@@ -62,7 +62,7 @@ Compare the debug messages from any error messages you receive here.
 | GUI_LOAD_EXCEPTION | This is a GUI error. The plugin failed to display a GUI for the player. |
 | FACTION_MEMBER_UNKNOWN | This is more of a general error. This would be something like you try kick a player from the Faction just after they leave (for example). |
 | FACTION_NOT_FOUND | This is a very obscure error. This would for instance, happen when you tried to do something Faction related in a UI just after you were kicked (for example). |
-| JSON_PROCESSING_EXCEPTION | This usually involves an internal error relating to defences. Report this ASAP. |
+| DEFENCE_PROCESSING_EXCEPTION | This usually involves an internal error relating to defences. Report this ASAP. |
 
 :::tip
 In some cases, such as upon startup, you won't receieve any of these debug messages.\
