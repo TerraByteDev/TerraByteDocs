@@ -15,7 +15,7 @@ We do not recommend using MultiVerse. They have various bugs and certain things 
 :::
 
 To create void worlds with MyWorlds, you can use the following command:\
-`/world create WORLD_NAME/flat::minecraft:air;minecraft:the_void;nostructures`
+`/myworlds create WORLD_NAME/flat::minecraft:air;minecraft:the_void;nostructures`
 
 This command may vary for your designated world manager. You will need to run this twice, once for player islands and once for faction islands.
 
