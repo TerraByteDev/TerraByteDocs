@@ -8,7 +8,7 @@ Certain GUIs in SkyFactions are paginated, meaning you can move between 'pages'.
 \
 The items used in paginations can be customised in the `guis/pagination.yml` configuration file.
 
->[!INFO]
+>[!NOTE]
 >If you want information on what each part of the configuration file does, just read the comments in the configuration file.
 
 ```yaml

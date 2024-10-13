@@ -6,7 +6,7 @@ description: Information concerning Faction ranks & titles.
 
 Each faction has ranks and titles, with varying privileges and permissions.
 
->[!INFO]
+>[!NOTE]
 >Each Faction Title is configurable in the `messages.yml` configuration file.\
 >After modifying configs, consider validating your .yml configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).
 
@@ -74,5 +74,5 @@ Normal privileges:
 * Participate in faction raids
 * Donate runes (via item conversion)
 
->[!INFO]
+>[!NOTE]
 >Although permissions are hardcoded for each rank / title and cannot change, **the names of each Title can be modified in `messages.yml`**

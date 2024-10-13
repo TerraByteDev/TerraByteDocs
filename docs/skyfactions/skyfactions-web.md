@@ -4,7 +4,7 @@ description: An installation/customization guide for the SkyFactions-web interfa
 
 # SkyFactions-web
 
->[!INFO]
+>[!NOTE]
 >This section is still a work-in-progress, as the web module is unfinished.
 
 This guide is written out-of-the-box for Ubuntu 22.04. If you use a different distro, such as Debian 12, you will need to do some research about how to install the dependencies.

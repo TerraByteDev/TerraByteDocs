@@ -95,5 +95,5 @@ OVERRIDES:
   NETHERITE_BLOCK: 810
 ```
 
->[!INFO]
+>[!NOTE]
 >After modifying configs, consider validating your .yml configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).

@@ -21,5 +21,5 @@ Example: `{#FF0000}`
 
 Example: `{#6F00FF} Hello There! {/#0044FF}`
 
->[!INFO]
+>[!NOTE]
 >After modifying configs, consider validating your .yml configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).

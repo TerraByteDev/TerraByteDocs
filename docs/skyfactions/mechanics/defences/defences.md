@@ -6,7 +6,7 @@ description: How to set up defences.
 
 In SkyFactionsReborn/defences, you can configure the island defences to your liking. In this guide, individual settings will be referred to as "keys" such as `costs.buy`. To create your own defences with different stats, you can create a new yaml file with one of these types, or you can just edit the existing config files.
 
->[!INFO]
+>[!NOTE]
 >Please read every comment in the configs when editing (this applies for all configs, not just defences!)\
 >They contain crucial information that you must take note of when adjusting / adding configs.
 

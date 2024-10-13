@@ -34,5 +34,5 @@ Paste this value into the `skull` value of your desired item, and ensure `materi
 
 Reload the configurations via `/sf reload` and the changes will apply.
 
->[!INFO]
+>[!NOTE]
 >You can use `%player_skull%` in the `skull` variable to return the player's skull (who opened the GUI).

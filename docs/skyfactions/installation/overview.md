@@ -59,7 +59,7 @@ If you're updating your server, that should be fine. However, never downgrade yo
 
 ## Reloading
 
->[!DANGER]
+>[!CAUTION]
 >**Caution!** Do not use `/reload` or plugin reloaders such as Plugman(X) to reload this plugin. It will cause unintended functionality of >multiple plugins on your server. Always restart your server.
 
 You can reload the configuration files of our plugin using `/sf reload`. Reloading configuration files can take up to 5 seconds to apply.\

@@ -24,5 +24,5 @@ These schematics must be placed in `plugins/SkyFactionsReborn/schematics` folder
 
 Make sure to run `/island reload` for changes to take effect.
 
->[!INFO]
+>[!NOTE]
 >After modifying configs, consider validating your .yml configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).

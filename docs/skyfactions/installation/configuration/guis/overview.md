@@ -103,7 +103,7 @@ Each letter corresponds to a new item.\
 `.` responds to an empty slot.\
 Any other characters corresponds to the items (See [#items](./#items "mention"))
 
->[!INFO]
+>[!NOTE]
 >The majority of this information is explained in the comments in the YAML files.
 
 ## Items
