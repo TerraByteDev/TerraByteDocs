@@ -53,16 +53,14 @@ If you're updating your server, that should be fine. However, never downgrade yo
 * Any Factions plugin - The use of other faction plugins on the server may result in unintended bugs and limited functionality.
 * Any Skyblock plugin - You do NOT need to install any Skyblock plugin beside SkyFactionsReborn on your server and it will only cause problems if you do so.
 
-::: tip
-Moral of the story:\
-Don't be dumb. Think about what might affect the functionality of this plugin.
-:::
+>[!TIP]
+>Moral of the story:\
+>Don't be dumb. Think about what might affect the functionality of this plugin.
 
 ## Reloading
 
-::: danger
-**Caution!** Do not use `/reload` or plugin reloaders such as Plugman(X) to reload this plugin. It will cause unintended functionality of multiple plugins on your server. Always restart your server.
-:::
+>[!DANGER]
+>**Caution!** Do not use `/reload` or plugin reloaders such as Plugman(X) to reload this plugin. It will cause unintended functionality of >multiple plugins on your server. Always restart your server.
 
 You can reload the configuration files of our plugin using `/sf reload`. Reloading configuration files can take up to 5 seconds to apply.\
 Certain configurations require a restart, such as Database configurations.

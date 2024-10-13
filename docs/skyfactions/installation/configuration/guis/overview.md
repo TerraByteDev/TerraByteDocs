@@ -9,10 +9,9 @@ Examples of these are Island Creation, Raiding, and the Obelisk.
 
 These GUIs offer extensive customization.
 
-:::warning
-Different types of GUIs have different placeholders for certain items!\
-Make sure to read the comments in every file while editing!
-:::
+>[!WARNING]
+>Different types of GUIs have different placeholders for certain items!\
+>Make sure to read the comments in every file while editing!
 
 Example GUI config (Island Creation):
 
@@ -104,9 +103,8 @@ Each letter corresponds to a new item.\
 `.` responds to an empty slot.\
 Any other characters corresponds to the items (See [#items](./#items "mention"))
 
-:::info
-The majority of this information is explained in the comments in the YAML files.
-:::
+>[!INFO]
+>The majority of this information is explained in the comments in the YAML files.
 
 ## Items
 

@@ -9,12 +9,16 @@ In SkyFactionsReborn/defences, you can configure the island defences to your lik
 ## Keys
 
 * `name` - The name of the defence in the Obelisk.
+* `identifier` - This is a unique identifier of the defence. **YOU MUST NOT CHANGE THIS!**
 * `type` - The [defence type](defences.md#defence-types).
 * `cost` - The cost to purchase or sell the defence from the Obelisk, measured in [Runes](runes.md), as well as the cost to upgrade it. Supports [mathematical expressions](defences.md#math).
 * `max_level` - The maximum level the defence can be upgraded to.
 * `sounds` - Here you can define [sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) that will be displayed during events.
 * `messages` - These are death or healing messages. Placeholders: %player\_name% - Player / %defender% - Defender (player or faction name). Healing types can use the placeholder %health\_increase%. You can define multiple messages here and it will pick one at random.
 * `attributes` - The stats of the defence. Supports [mathematical expressions](defences.md#math).
+* `placement` - This allows you to configure how and where the defences should be placed.
+* `holograms` - This allows you to configure the holograms above the defence.
+* `entities` - You can customise what entities the defence can target, as well as blacklist / whitelist entities. **See [Blacklisting Entities](blacklisting_entities.md)**
 * `experience_drops` - How much exp, if any, drops when the defence kills a certain mob. See [entities](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html).
 * `projectile` - The type of projectile shot by the defence. For non-arrow types, put `NONE`. See [entities](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html) for valid projectile values.
 * `particle` - To get fancy, you can use [particle](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) effects only if `projectile` is set to `NONE`.

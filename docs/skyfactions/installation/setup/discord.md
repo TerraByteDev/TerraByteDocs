@@ -8,9 +8,8 @@ SkyFactions has integration with Discord, for pinging discord users when they ar
 \
 To use this functionality, you must create a Discord Bot.
 
-:::info
-This is optional! Leaving the discord system as disabled will not cause any issues.
-:::
+>[!INFO]
+>This is optional! Leaving the discord system as disabled will not cause any issues.
 
 ## Create a Discord Bot
 
@@ -24,9 +23,8 @@ Ensure `Server Members Intent` is enabled.
 
 <figure><img src="/assets/bot/intent.png" alt=""><figcaption><p>Enabling the <code>Server Members Intent</code> intent on the Discord Bot.</p></figcaption></figure>
 
-:::info
-Make sure to hit `Save Changes` after modifying any settings of the bot!
-:::
+>[!INFO]
+>Make sure to hit `Save Changes` after modifying any settings of the bot!
 
 Then head to the `OAuth2` tab (on the left) and scroll down to the `OAuth2 URL Generator`.\
 Check the `bot` scope (see image).
@@ -48,9 +46,8 @@ Head back to the `Bot` tab (on the left).\
 Under `Token`, press the `Reset Token` button.\
 If necessary, authenticate via 2FA and copy the token that you get.
 
-:::danger
-Do not share your Discord Bot token with anybody! It is highly sensitive and will give anyone with it access to your bot!
-:::
+>[!DANGER]
+>Do not share your Discord Bot token with anybody! It is highly sensitive and will give anyone with it access to your bot!
 
 In the `discord.yml` (located at `plugins/SkyFactionsReborn/discord.yml`), paste the entire bot token into the `TOKEN` entry.
 

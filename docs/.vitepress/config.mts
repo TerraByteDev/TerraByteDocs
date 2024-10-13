@@ -53,6 +53,15 @@ export default defineConfig({
             items: [
               { text: "Islands", link: "/skyfactions/mechanics/islands"},
               { text: "Obelisk", link: "/skyfactions/mechanics/obelisk"},
+              {
+                text: "Defences",
+                link: "/skyfactions/mechanics/defences/defences",
+                collapsed: true,
+                items: [
+                  { text: "Blacklisting Entities", link: "/skyfactions/mechanics/defences/blacklisting_entities"},
+                  { text: "Integrations", link: "/skyfactions/mechanics/defences/integrations"}
+                ]
+              },
               { text: "Runes", link: "/skyfactions/mechanics/runes"},
               {
                 text: "Factions",

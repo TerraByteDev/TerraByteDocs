@@ -24,17 +24,15 @@ You can find custom heads from the sites such as [MCHeads.com](https://mc-heads.
 \
 Find a skull you like, and find the "Texture Value" or "Base64 Encoded String".
 
-:::warning
-The texture value should look like:\
-\`eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFhZTgwMzg0YTAwYjZmOWY2NGRkODMwN2E5MDY3NjU0NGM5N2E3OTI5NzE2NWVhNzEzMjYyYzdkODgzMzg0NyJ9fX0=\`
-
-It will not be exact to this, but should be similar in length.
-:::
+>[!WARNING]
+>The texture value should look like:\
+>\`eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFhZTgwMzg0YTAwYjZmOWY2NGRkODMwN2E5MDY3NjU0NGM5N>2E3OTI5NzE2NWVhNzEzMjYyYzdkODgzMzg0NyJ9fX0=\`
+\
+>It will not be exact to this, but should be similar in length.
 
 Paste this value into the `skull` value of your desired item, and ensure `material` is set to `PLAYER_HEAD`.
 
 Reload the configurations via `/sf reload` and the changes will apply.
 
-:::info
-You can use `%player_skull%` in the `skull` variable to return the player's skull (who opened the GUI).
-:::
+>[!INFO]
+>You can use `%player_skull%` in the `skull` variable to return the player's skull (who opened the GUI).

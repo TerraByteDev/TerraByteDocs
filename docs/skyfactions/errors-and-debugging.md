@@ -13,11 +13,10 @@ This is why we offer extensive documentation and quality support for any issues 
 
 When players run commands that results in an error, they will be given a debug message.
 
-::: warning
-This assumes you have not removed the `%debug%` placeholder from your `ERROR` message configuration in `messages.yml`!\
-\
-In every case, you should [make a GIthub issue](https://github.com/TerraByteDev/SkyFactionsReborn/issues) or [report it in our Discord!](https://discord.com/invite/SwxXMrFdjp)
-:::
+>[!WARNING]
+> This assumes you have not removed the `%debug%` placeholder from your `ERROR` message configuration in `messages.yml`!\
+> \
+> In every case, you should [make a GIthub issue](https://github.com/TerraByteDev/SkyFactionsReborn/issues) or [report it in our Discord!]>(https://discord.com/invite/SwxXMrFdjp)
 
 Compare the debug messages from any error messages you receive here.
 
@@ -64,7 +63,7 @@ Compare the debug messages from any error messages you receive here.
 | FACTION_NOT_FOUND | This is a very obscure error. This would for instance, happen when you tried to do something Faction related in a UI just after you were kicked (for example). |
 | DEFENCE_PROCESSING_EXCEPTION | This usually involves an internal error relating to defences. Report this ASAP. |
 
-:::tip
-In some cases, such as upon startup, you won't receieve any of these debug messages.\
-In both cases (a error message, or just an error in the console), [make an issue](https://github.com/TerraByteDev/SkyFactionsReborn/issues) or [join our discord](https://discord.com/invite/SwxXMrFdjp).
-:::
+>[!TIP]
+> In some cases, such as upon startup, you won't receieve any of these debug messages.\
+> In both cases (a error message, or just an error in the console), [make an issue](https://github.com/TerraByteDev/SkyFactionsReborn/> issues) >or [join our discord](https://discord.com/invite/SwxXMrFdjp).
+
