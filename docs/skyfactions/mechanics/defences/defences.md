@@ -6,6 +6,10 @@ description: How to set up defences.
 
 In SkyFactionsReborn/defences, you can configure the island defences to your liking. In this guide, individual settings will be referred to as "keys" such as `costs.buy`. To create your own defences with different stats, you can create a new yaml file with one of these types, or you can just edit the existing config files.
 
+>[!INFO]
+>Please read every comment in the configs when editing (this applies for all configs, not just defences!)\
+>They contain crucial information that you must take note of when adjusting / adding configs.
+
 ## Keys
 
 * `name` - The name of the defence in the Obelisk.
@@ -18,7 +22,7 @@ In SkyFactionsReborn/defences, you can configure the island defences to your lik
 * `attributes` - The stats of the defence. Supports [mathematical expressions](defences.md#math).
 * `placement` - This allows you to configure how and where the defences should be placed.
 * `holograms` - This allows you to configure the holograms above the defence.
-* `entities` - You can customise what entities the defence can target, as well as blacklist / whitelist entities. **See [Blacklisting Entities](blacklisting_entities.md)**
+* `entities` - You can customise what entities the defence can target, as well as blacklist / whitelist entities. **See [Managing Entities](managing_entities.md)**
 * `experience_drops` - How much exp, if any, drops when the defence kills a certain mob. See [entities](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html).
 * `projectile` - The type of projectile shot by the defence. For non-arrow types, put `NONE`. See [entities](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html) for valid projectile values.
 * `particle` - To get fancy, you can use [particle](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) effects only if `projectile` is set to `NONE`.

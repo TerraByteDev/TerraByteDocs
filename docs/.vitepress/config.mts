@@ -58,7 +58,7 @@ export default defineConfig({
                 link: "/skyfactions/mechanics/defences/defences",
                 collapsed: true,
                 items: [
-                  { text: "Blacklisting Entities", link: "/skyfactions/mechanics/defences/blacklisting_entities"},
+                  { text: "Managing Entities", link: "/skyfactions/mechanics/defences/managing_entities"},
                   { text: "Integrations", link: "/skyfactions/mechanics/defences/integrations"}
                 ]
               },
