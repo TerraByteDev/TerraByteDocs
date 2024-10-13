@@ -33,5 +33,6 @@ MythicMobs provides the ability to server owners to create custom, highly advanc
 SkyFactions will hook into MythicMobs and allows you to whitelist and blacklist all / specified mobs in the [Entities Configuration](managing_entities.md).
 
 ### Blacklisting MythicMobs Entities
-**To blacklist / whitelist all MythicMobs entities in the Entities Configuration, add a new line to `ENTITY_LIST` with `mythicmobs:*`..**
+**To blacklist / whitelist all MythicMobs entities in the Entities Configuration, add a new line to `ENTITY_LIST` with `mythicmobs:*`.**
+\
 **To blacklist / whitelist certain MythicMobs entities in the Entities Configuration, add a new line to `ENTITY_LIST` with `mythicmobs:my_mythic_mob_identifier` - Replace `my_mythic_mob_identifier` with the actual real identifier of the mob.**
