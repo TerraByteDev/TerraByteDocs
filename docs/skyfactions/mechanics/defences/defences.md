@@ -25,7 +25,6 @@ In SkyFactionsReborn/defences, you can configure the island defences to your lik
 * `entities` - You can customise what entities the defence can target, as well as blacklist / whitelist entities. **See [Managing Entities](managing_entities.md)**
 * `experience_drops` - How much exp, if any, drops when the defence kills a certain mob. See [entities](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html).
 * `projectile` - The type of projectile shot by the defence. For non-arrow types, put `NONE`. See [entities](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html) for valid projectile values.
-* `particle` - To get fancy, you can use [particle](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) effects only if `projectile` is set to `NONE`.
 * `block` - Change the block to any [material](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html#enum-constant-summary). If you use `PLAYER_HEAD` you can also define the skull value.
 * `item` - Change the item when it's in a player's hotbar, same as above.
   * `lore` - Change the lore of the defence.
