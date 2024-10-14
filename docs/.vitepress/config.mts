@@ -59,7 +59,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: "Managing Entities", link: "/skyfactions/mechanics/defences/managing_entities"},
-                  { text: "Integrations", link: "/skyfactions/mechanics/defences/integrations"}
+                  { text: "Integrations", link: "/skyfactions/mechanics/defences/integrations"},
+                  { text: "Configuring Projectiles", link: "/skyfactions/mechanics/defences/projectiles"}
                 ]
               },
               { text: "Runes", link: "/skyfactions/mechanics/runes"},
