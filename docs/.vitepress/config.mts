@@ -42,6 +42,7 @@ export default defineConfig({
                   { text: "Discord", link: "/skyfactions/installation/setup/discord"}
                 ]
               },
+              { text: "Placeholders", link: "/skyfactions/installation/placeholders"},
               { text: "Commands & Permissions", link: "/skyfactions/installation/commands-and-permissions"}
             ]
 
