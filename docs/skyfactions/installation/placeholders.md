@@ -7,9 +7,11 @@ SkyFactionsReborn hooks into [PlaceholderAPI](https://www.spigotmc.org/resources
 | `%skyfactions_player_runes%` | The amount of runes a player has. |
 | `%skyfactions_player_gems%` | The amount of gems a player has. |
 | `%skyfactions_player_faction%` | The name of the Faction a player is in. |
+| `%skyfactions_faction_runes%` | The amount of runes a player's Faction has. |
 | `%skyfactions_faction_runes_<faction_name>%` | The amount of runes a Faction has. |
+| `%skyfactions_faction_gems%` | The amount of gems a player's Faction has. |
 | `%skyfactions_faction_gems_<faction_name>%` | The amount of gems a Faction has. |
-| `%skyfactions_faction_rank_<faction_name>%` | The rank of the specified player in their Faction. |
+| `%skyfactions_faction_rank%` | The rank of the specified player in their Faction. |
 
 >[!CAUTION]
 >As these placeholders are often involved with database operations, **all data is cached**.\
