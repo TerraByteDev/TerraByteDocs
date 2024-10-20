@@ -60,8 +60,11 @@ These commands/permissions are provided to all players by default unless specifi
 | /faction info \<name>                  | Shows information about another faction                                                                                           | skyfactions.faction.info                                           |
 | /gems balance                          | Get your gems balance.                                                                                                            | skyfactions.gems.balanace                                          |
 | /gems pay \<name> \<count>             | Give another player some of your gems.                                                                                            | skyfactions.gems.pay                                               |
+| /gems give \<type> \<player/faction> \<count> | **Admin Command** to give players or factions gems. | skyfactions.gems.give
 | /gems help                             | Get help on gem-related commands.                                                                                                 | skyfactions.gems.help                                              |
-
+| /runes help | Get help on runes-related commands. | skyfactions.runes.help |
+| /runes balance | Get your runes balance. | skyfactions.runes.balance |
+| /runes give \<type> \<player/faction> \<count> | **Admin Command** to give players or factions runes. | skyfactions.runes.give |
 ## General Permissions
 
 These are just a list of permissions that are not tied to commands.
