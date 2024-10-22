@@ -14,6 +14,9 @@ This is a general overview of the commands and permissions present in this plugi
 | `/sf reload` | Reload the configuration files | `skyfactions.reload` |
 | `/sf create <player/faction> <player> <factionName>` | Force create an island. Specify whether you're creating a player island or faction island, then use another argument for the player name, and faction name if applicable.| `skyfactions.admin.create` |
 | `/sf delete <player/faction> <player name / faction name>` | Force deletes an island. Specify whether you're deleting a player island or faction island, then use another argument for the player / faction name. | `skyfactions.admin.delete` |
+| `/gems give \<type> \<player/faction> \<count>` | Give players or factions gems. | skyfactions.gems.give
+| `/runes give \<type> \<player/faction> \<count>` | Give players or factions runes. | skyfactions.runes.give |
+| `/sf sync` | Force a sync of all cached rune & gems. You should not spam this. | skyfactions.sync |
 
 ## Player Commands & Permissions
 
@@ -60,11 +63,9 @@ These commands/permissions are provided to all players by default unless specifi
 | /faction info \<name>                  | Shows information about another faction                                                                                           | skyfactions.faction.info                                           |
 | /gems balance                          | Get your gems balance.                                                                                                            | skyfactions.gems.balanace                                          |
 | /gems pay \<name> \<count>             | Give another player some of your gems.                                                                                            | skyfactions.gems.pay                                               |
-| /gems give \<type> \<player/faction> \<count> | **Admin Command** to give players or factions gems. | skyfactions.gems.give
 | /gems help                             | Get help on gem-related commands.                                                                                                 | skyfactions.gems.help                                              |
 | /runes help | Get help on runes-related commands. | skyfactions.runes.help |
 | /runes balance | Get your runes balance. | skyfactions.runes.balance |
-| /runes give \<type> \<player/faction> \<count> | **Admin Command** to give players or factions runes. | skyfactions.runes.give |
 ## General Permissions
 
 These are just a list of permissions that are not tied to commands.
