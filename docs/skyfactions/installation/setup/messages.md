@@ -7,6 +7,9 @@ description: Guide for configuring messages.
 Every message in the plugin (item names, command responses, etc.) are all configurable.\
 You can find the config at `plugins/SkyFactionsReborn/messages.yml`.
 
+> [!TIP]
+> The messages config supports MiniMessage.
+
 Every entry has a description of what it corresponds to, making configuring all messages easy.
 
 ## Text Colours / RGB
