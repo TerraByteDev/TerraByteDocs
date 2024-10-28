@@ -73,7 +73,8 @@ export default defineConfig({
                   { text: "Overview", link: "/skyfactions/mechanics/factions/factions-overview"},
                   { text: "Faction Ranks & Titles", link: "/skyfactions/mechanics/factions/faction-ranks-titles"}
                 ]
-              }
+              },
+              { text: "Per-Island NPCs", link: "/skyfactions/mechanics/npcs"}
             ]
           },
           { text: "Errors & Debugging", link: "/skyfactions/errors-and-debugging"},
