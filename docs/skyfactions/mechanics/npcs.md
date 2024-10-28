@@ -64,5 +64,5 @@ See the below table for the possible actions.
 
 | Action | Description |
 | ------ | ----------- |
-| `[console] %command%` | Run a command as the console. |
+| `[console] %command%` | Run a command as the console. **Do not include a `/` at the start! |
 | `[player] %command%` | Run a command as the played who interacted with the NPC. |
