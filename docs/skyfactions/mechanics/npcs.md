@@ -15,7 +15,7 @@ This plugin hooks into:
 
 # Configuring NPC Integrations
 
-This is the NPCs section in the `config.yml` file.
+This is the default NPCs section in the `config.yml` file.
 ```yaml
 # SkyFactions can hook into numerous NPC plugins to add support
 # for per-island NPCs, such as Jerry from Hypixel SkyBlock.
@@ -54,6 +54,9 @@ NPC:
       - "[console] tell %player_name% You clicked me!"
 ```
 
+The comments explain the functionality of each config.
+Want more configuration? Ask in our [Discord](https://discord.gg/Y7DVR9gpwa).
+
 ## Actions
 The actions configuration allows you to configure what the plugin will do when the NPCs are interacted with.
 See the below table for the possible actions.
@@ -65,4 +68,7 @@ See the below table for the possible actions.
 | Action | Description |
 | ------ | ----------- |
 | `[console] %command%` | Run a command as the console. **Do not include a `/` at the start! |
-| `[player] %command%` | Run a command as the played who interacted with the NPC. |
+| `[player] <command>` | Run a command as the played who interacted with the NPC. |
+| `[message] <message>` | Send a message to the player who interacted with the NPC. |
+| `[givepermission] <permission.node>` | Give the player a permission node. Requires [Vault](https://www.spigotmc.org/resources/vault.34315/) to function. |
+| `[removepermission] <permission.node>]` | Remove a permission from player. Requires [Vault](https://www.spigotmc.org/resources/vault.34315/) to function. |
