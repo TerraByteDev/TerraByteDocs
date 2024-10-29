@@ -62,8 +62,10 @@ Compare the debug messages from any error messages you receive here.
 | FACTION_MEMBER_UNKNOWN | This is more of a general error. This would be something like you try kick a player from the Faction just after they leave (for example). |
 | FACTION_NOT_FOUND | This is a very obscure error. This would for instance, happen when you tried to do something Faction related in a UI just after you were kicked (for example). |
 | DEFENCE_PROCESSING_EXCEPTION | This usually involves an internal error relating to defences. Report this ASAP. |
+| NPC_RELOAD_EXCEPTION | This when refreshing NPCs results in an error. |
 
 >[!TIP]
 > In some cases, such as upon startup, you won't receieve any of these debug messages.\
-> In both cases (a error message, or just an error in the console), [make an issue](https://github.com/TerraByteDev/SkyFactionsReborn/> issues) >or [join our discord](https://discord.com/invite/SwxXMrFdjp).
+> In both cases (a error message, or just an error in the console), p
+ease [make an issue](https://github.com/TerraByteDev/SkyFactionsReborn/> issues), or [join our discord](https://discord.com/invite/SwxXMrFdjp).
 
