@@ -63,6 +63,7 @@ Compare the debug messages from any error messages you receive here.
 | FACTION_NOT_FOUND | This is a very obscure error. This would for instance, happen when you tried to do something Faction related in a UI just after you were kicked (for example). |
 | DEFENCE_PROCESSING_EXCEPTION | This usually involves an internal error relating to defences. Report this ASAP. |
 | NPC_RELOAD_EXCEPTION | This when refreshing NPCs results in an error. |
+| NPC_DISABLE_EXCEPTION | This is when disabling NPCs results in an error. |
 
 >[!TIP]
 > In some cases, such as upon startup, you won't receieve any of these debug messages.\
