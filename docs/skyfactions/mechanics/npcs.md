@@ -8,7 +8,9 @@ This plugin hooks into:
 
 - ZNPCsPlus
 - FancyNPCs
-- Citizens
+
+**We will not be supporting Citizens for the forseeable future, due to its limitations.**\
+**Furthermore, Citizens has a reputation for being laggy, whereas ZNPCsPlus and FancyNPCs are packet based, causing far less lag.**
 
 >[!TIP]
 >Don't see the NPC plugin you have? Join our [Discord](https://discord.gg/Y7DVR9gpwa) and ask for an integration!
@@ -25,7 +27,7 @@ NPC:
   ENABLED: false
 
   # Specify which NPC plugin (factory) to use.
-  # Possible Factories: "citizens" / "znpcpsplus" / "fancynpcs"
+  # Possible Factories: "znpcpsplus" / "fancynpcs"
   # Specifing an invalid factory or a factory that is not installed will
   # cause the plugin to disable.
   FACTORY: "znpcsplus"
