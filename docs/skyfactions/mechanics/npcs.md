@@ -99,7 +99,7 @@ See the below table for the possible actions.
 
 | Action | Description |
 | ------ | ----------- |
-| `[console] %command%` | Run a command as the console. **Do not include a `/` at the start! |
+| `[console] %command%` | Run a command as the console. **Do not include a `/` at the start!** |
 | `[player] <command>` | Run a command as the played who interacted with the NPC. |
 | `[message] <message>` | Send a message to the player who interacted with the NPC. |
 | `[givepermission] <permission.node>` | Give the player a permission node. Requires [Vault](https://www.spigotmc.org/resources/vault.34315/) to function. |
