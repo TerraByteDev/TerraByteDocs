@@ -38,7 +38,7 @@ export default defineConfig({
                   { text: "Database Setup", link: "/skyfactions/installation/setup/database-setup"},
                   { text: "World Setup", link: "/skyfactions/installation/setup/world-setup"},
                   { text: "Island Generation", link: "/skyfactions/installation/setup/islands"},
-                  { text: "Messages", link: "/skyfactions/installation/setup/messages"},
+                  { text: "Languages", link: "/skyfactions/installation/setup/languages"},
                   { text: "Discord", link: "/skyfactions/installation/setup/discord"}
                 ]
               },
