@@ -16,7 +16,9 @@ This is a general overview of the commands and permissions present in this plugi
 | `/sf delete <player/faction> <player name / faction name>` | Force deletes an island. Specify whether you're deleting a player island or faction island, then use another argument for the player / faction name. | `skyfactions.admin.delete` |
 | `/gems give \<type> \<player/faction> \<count>` | Give players or factions gems. | skyfactions.gems.give
 | `/runes give \<type> \<player/faction> \<count>` | Give players or factions runes. | skyfactions.runes.give |
-| `/sf sync` | Force a sync of all cached rune & gems. You should not spam this. | skyfactions.sync |
+| `/sf sync` | Force a sync of all cached rune & gems. You should not spam this. 
+| skyfactions.sync |
+| `/sf disablenpcs` | Disable all NPCs after having the integration enabled. | skyfactions.sf.disablenpcs |
 
 ## Player Commands & Permissions
 
