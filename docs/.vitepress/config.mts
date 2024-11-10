@@ -38,14 +38,29 @@ export default defineConfig({
                   { text: "Database Setup", link: "/skyfactions/installation/setup/database-setup"},
                   { text: "World Setup", link: "/skyfactions/installation/setup/world-setup"},
                   { text: "Island Generation", link: "/skyfactions/installation/setup/islands"},
-                  { text: "Languages", link: "/skyfactions/installation/setup/languages"},
                   { text: "Discord", link: "/skyfactions/installation/setup/discord"}
                 ]
               },
-              { text: "Placeholders", link: "/skyfactions/installation/placeholders"},
               { text: "Commands & Permissions", link: "/skyfactions/installation/commands-and-permissions"}
             ]
 
+          },
+          {
+            text: "Configuration",
+            link: "/skyfactions/configuration/overview",
+            collapsed: true,
+            items: [
+              { text: "Languages", link: "/skyfactions/configuration/languages"},
+              { text: "Placeholders", link: "/skyfactions/configuration/placeholders"},
+              {
+                text: "GUIs",
+                link: "/skyfactions/configuration/guis/overview",
+                items: [
+                  { text: "Custom Skulls", link: "/skyfactions/configuration/guis/custom-skulls.md"},
+                  { text: "Paginated GUIs", link: "/skyfactions/configuration/guis/paginated-guis.md"}
+                ]
+              }
+            ]
           },
           {
             text: "Mechanics",
