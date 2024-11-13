@@ -69,6 +69,6 @@ Compare the debug messages from any error messages you receive here.
 
 >[!TIP]
 > In some cases, such as upon startup, you won't receieve any of these debug messages.\
-> In both cases (a error message, or just an error in the console), p
-ease [make an issue](https://github.com/TerraByteDev/SkyFactionsReborn/> issues), or [join our discord](https://discord.com/invite/SwxXMrFdjp).
+> In both cases (a error message, or just an error in the console), 
+please [make an issue on our GitHub repository](https://github.com/TerraByteDev/SkyFactionsReborn/), or [join our discord](https://discord.com/invite/SwxXMrFdjp).
 
