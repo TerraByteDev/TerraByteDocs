@@ -53,6 +53,7 @@ Compare the debug messages from any error messages you receive here.
 | SQL_INVITE_ACCEPT | This is a database error. The plugin failed to accept an invite. |
 | SQL_INVITE_GET | This is a database error. The plugin failed to fetch invites. |
 | SQL_INVITE_DENY | This is a database error. The plugin failed to deny an invite. |
+| SQL_PLAYER_GET | The plugin failed to fetch a player's data. |
 | WORLD_NOT_EXIST | This is (typically) a configuration error. The plugin failed to get a world from the configured world name. You will have to use the `%operation%` placeholder to see in what context and check the configuration related to that. |
 | FAWE_ISLAND_PASTE | This is a FAWE error. FAWE failed to paste an island. |
 | SCHEMATIC_NOT_EXIST | This is a File error. The plugin failed to retrieve the schematic. See log for details. |
