@@ -19,6 +19,7 @@ This is a general overview of the commands and permissions present in this plugi
 | `/sf sync` | Force a sync of all cached rune & gems. You should not spam this. 
 | skyfactions.sync |
 | `/sf disablenpcs` | Disable all NPCs after having the integration enabled. | skyfactions.sf.disablenpcs |
+| `/sf language \<new_language>` | Modify your configured language for SkyFactions. This will only affect SkyFactions-related messages. |
 
 ## Player Commands & Permissions
 
