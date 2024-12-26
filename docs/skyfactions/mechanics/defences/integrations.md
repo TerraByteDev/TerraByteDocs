@@ -36,3 +36,7 @@ SkyFactions will hook into MythicMobs and allows you to whitelist and blacklist 
 **To blacklist / whitelist all MythicMobs entities in the Entities Configuration, add a new line to `ENTITY_LIST` with `mythicmobs:*`.**
 \
 **To blacklist / whitelist certain MythicMobs entities in the Entities Configuration, add a new line to `ENTITY_LIST` with `mythicmobs:my_mythic_mob_identifier` - Replace `my_mythic_mob_identifier` with the actual real identifier of the mob.**
+
+## CoreProtect
+
+SkyFactions will hook into [CoreProtect](https://modrinth.com/plugin/coreprotect), an interaction logging plugin, and log defence removals automatically - We must do this because players cannot mine defences normally and must use the removal feature in the defence manage UI.

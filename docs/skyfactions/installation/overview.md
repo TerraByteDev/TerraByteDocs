@@ -31,6 +31,11 @@ Adds extra features to the plugin, but the plugin will automatically detect if t
 * [Jukebox](https://github.com/SkytAsul/JukeBox) - Hooks into JukeBox to stop any music to allow for raid music.
 * [NoteblockAPI](https://github.com/koca2000/NoteBlockAPI) - A dependency for Jukebox itself, also used for providing raid music.
 * [PlaceholderAPI](https://github.com/koca2000/NoteBlockAPI) - If for some reason a server owner has no reason to use placeholders, this isn't a required dependency.
+* [Defence Plugin Integrations](../mechanics/defences/integrations.md) - Plugins that SkyFactions hooks into to enhance the defence mechanic.
+
+>[!INFO]
+>All of these integrations can be enabled / disabled in the `config.yml`, under `integrations`.\
+>By default, they are all set to true.
 
 ## Updating the Plugin
 
