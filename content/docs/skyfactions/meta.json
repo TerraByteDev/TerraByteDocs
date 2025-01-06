@@ -1,0 +1,6 @@
+{
+    "title": "SkyFactionsReborn",
+    "icon": "Rocket",
+    "index": "index",
+    "pages": ["installation", "configuration", "mechanics", "modules", "updating", "errors-and-debugging", "skyfactions-web"]
+}

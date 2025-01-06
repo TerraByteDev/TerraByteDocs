@@ -1,0 +1,24 @@
+---
+title: Languages
+description: Guide for configuring languages.
+---
+
+SkyFactions has an advanced multi-language system.\
+This allows you to configure different language and have the plugin automatically detect a player's locale and send the correct message locale (assuming you have their locale configured).\
+If you do not have their locale configured, it will revert to the default specified in `config.yml`.
+
+The plugin will automatically ship with the English language configuration. As of 2nd January 2025, there are no other languages available.\
+The defence configs and gui configs are duplicated across each language file, meaning if you make a non-language specific adjustment on one, you must reflect it on the others. There is no automation for this.
+
+The default English configuration is located at `/plugins/SkyFactionsReborn/language/en_US/`. You will find an `en_US.yml` file, `defences` folder and `guis` folder.
+
+<Callout type="info" title="Tip">
+  Once making adjustments, you can run `/sf reload` on the server (either via the console or as a player with permissions to do so) to instantly refresh the configurations!
+</Callout>
+
+Every config has a description (in comment form) of what it corresponds to, making configuring all messages and other configs trivial.
+
+## Text Colours / RGB
+SkyFactionsReborn uses the [MiniMessage Format](https://docs.advntr.dev/minimessage/format.html), allowing for extensive customisation and familiarity when it comes to stylising your messages with gradients, fonts and more.
+
+All message configs *also* support placeholders from [PlaceholderAPI](https://wiki.placeholderapi.com/), so you can access placeholders outside of SkyFactions.

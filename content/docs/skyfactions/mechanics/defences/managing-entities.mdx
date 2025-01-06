@@ -1,0 +1,84 @@
+---
+title: Managing Entities
+description: Short overview of the defences entities configuration.
+---
+
+Each defence allows you to configure which entities can be targeted by the defence.\
+See the below instructions on how to configure this aspect of defences.
+
+## Global Config
+The global configuration for all defences is located in `/plugins/SkyFactionsReborn/defences.yml`.\
+It allows you to configure several aspects of the defences.
+
+```yaml
+# This is the global configuration for all defences.
+# This will apply to all defences (unless they override it in per-defence configs), combined with the per-defence config.
+global:
+  # Global configuration for entities.
+  entities:
+    # You can edit what entities are deemed as "passive".
+    passive-entities:
+      - "ALLAY"
+      - "ARMADILLO"
+      - "AXOLOTL"
+      - "BEE"
+      - "CAMEL" # Shortened for conciseness
+
+    # You can edit what entities are deemed as "hostile".
+    hostile-entities:
+      - "BAT"
+      - "BLAZE"
+      - "BOGGED" # Shortened for conciseness
+
+    # What entities should be blocked?
+    # See https://jd.papermc.io/paper/1.21.1/org/bukkit/entity/EntityType.html
+    # There is no need to include entity types such as arrows!
+    # Read https://docs.terrabytedev.com/skyfactions/mechanics/defences/managing_entities.html for more detail into integrations
+    entity-list: [ "" ]
+```
+
+The `global` section will apply **on top of** the per-defence configs (found in each lang folder), unless `override-global-config` is enabled.\
+To blacklist certain entities, you must add the entity into a new line (see https://jd.papermc.io/paper/1.21.1/org/bukkit/entity/EntityType.html).
+
+<Callout type="info" title="Tip">
+    SkyFactions hooks into multiple plugins to allow integrations into the features they provide.\
+    See [Integrations](./integrations) for more info.
+</Callout>
+
+## Example Per-Defence Config
+```yaml
+# This allows you to configure what entities will be targeted by the defence.
+entities:
+  # This stops the global entities config in defences.yml from being applied (additionally) to the below configs.
+  # See https://docs.terrabytedev.com/skyfactions/mechanics/defences/managing_entities.html#global-config
+  override-global-config: false
+
+  # The below booleans for hostile and passive mobs only apply if you are not overriding the global config (above).
+  # Lets the defence target hostile entities (e.g. zombies)
+  allow-hostile-targeting: true
+  # Lets the player toggle hostile entity targeting.
+  allow-toggle-hostile-targeting: true
+  # Target hostile entities by default when first placed down.
+  target-hostile-on-default: true
+
+  # Lets the defence target passive entities (e.g. cows)
+  allow-passive-targeting: true
+  # Lets the player toggle passive entity targeting.
+  allow-toggle-passive-targeting: true
+  # Target passive entities by default when first placed down.
+  target-passive-on-default: false
+
+  # Allows the defence to attack players (who are raiding you only!)
+  allow-attack-players: true
+
+  # Whether the ENTITY_LIST is a whitelist of entities that can be targeted.
+  # This does not override the global defence entity config, or the above booleans.
+  whitelist: false
+  # What entities should be blacklisted or whitelisted?
+  # See https://jd.papermc.io/paper/1.21.1/org/bukkit/entity/EntityType.html
+  # Read https://docs.terrabytedev.com/skyfactions/mechanics/defences/managing_entities.html for more detail into integrations
+  entity-list: [ ]
+```
+
+The entities section is very detailed and allows extensive customisation.
+To blacklist / whitelist certain entities, you must add the entity into a new line (see https://jd.papermc.io/paper/1.21.1/org/bukkit/entity/EntityType.html).

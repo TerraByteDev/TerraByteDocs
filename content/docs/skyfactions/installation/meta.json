@@ -1,0 +1,6 @@
+{
+    "title": "Installation",
+    "icon": "ArrowDownToLine",
+    "index": "index",
+    "pages": ["setup", "commands-and-permissions"]
+}

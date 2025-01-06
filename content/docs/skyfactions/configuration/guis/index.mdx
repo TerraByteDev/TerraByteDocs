@@ -1,0 +1,192 @@
+---
+title: Overview
+description: Guide through GUIs and its configuration.
+---
+
+GUIs are frequently used in this plugin to offer an appealing interface for players to use.\
+Examples of these are Island Creation, Raiding and the Obelisk.
+
+We offer extensive customization over the appearance of these GUIs.
+
+<Callout type="warn" title="Warning">
+    Different types of GUIs have different placeholders for certain items\
+    Make sure to always read the comments in every file while editing!
+</Callout>
+
+## Example GUI Config
+The below config is the Island Creation confirmation GUI.
+
+```yml
+# DO NOT CHANGE THIS!!!!
+config-version: 1
+
+# Title of the GUI (Inventory)
+title: "<gray>Create Island"
+# Sound when GUI is opened.
+open-sound: "ui.button.click"
+open-pitch: 1 # Pitch of the sound.
+
+# This allows you to customise the shape of the GUI.
+# You can only have a maximum of 54 slots (9 x 6).
+# Each character represents an item / slot.
+# '.' represents an empty slot.
+# Any other characters are shown below under ITEMS
+# Each character corresponds to an item.
+
+# This GUI is for when players run /island create.
+
+layout:
+  - "# # # # # # # # #"
+  - "# . . . p . . . #"
+  - "# . y . . . n . #"
+  - "# # # # # # # # #"
+
+items:
+  # Confirm island creation
+  confirm:
+    char: "y" # This is the character to use in the LAYOUT!
+    material: "LIME_TERRACOTTA"
+    skull: "" # You can set custom skull textures (e.g. from minecraft-heads.com). 'material' MUST BE SET TO 'PLAYER_HEAD'. Placeholders: <player_skull> - Skull texture of the player.
+    text: "<green><bold>Confirm" # Supported placeholders: <player_name> - Player's Name
+    sound: "ui.button.click" # Sound played when the item is clicked. Set to 'none' to disable.
+    pitch: 1 # Pitch of the sound. Does not apply if 'sound' is 'none.'.
+    lore:
+      - "<yellow>Click to create an island!"
+
+  # 'Prompt' to create a new island.
+  prompt:
+    char: "p"
+    material: "PLAYER_HEAD"
+    skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQyZWJjNTA1ZGFjMGYxYjA5NjViNmYzZTQ2MGQ0MTkwZjM3NGVkZDY2NjNiMWE0ZDUwYWJjNDQ4MGI2OTE4OCJ9fX0="
+    text: "<yellow>Create a new island?"
+    sound: "none"
+    pitch: 0
+    lore:
+      - "<green><italic>Do you wish to create a new island?"
+
+  # Cancel island creation.
+  cancel:
+    char: "n"
+    material: "RED_TERRACOTTA"
+    skull: ""
+    text: "<red><bold>Cancel"
+    sound: "block.note_block.bass"
+    pitch: 4
+    lore:
+      - "<yellow>Click to cancel island creation."
+
+  # Border of the GUI.
+  border:
+    char: "#"
+    material: "GRAY_STAINED_GLASS_PANE"
+    skull: ""
+    text: " " # No text
+    sound: "none"
+    pitch: 1
+    lore: "" # Empty lore
+```
+
+### GUI "Layout"
+You can customise how large the GUI is and what items are in each slot.
+
+```yml
+# This allows you to customise the shape of the GUI.
+# You can only have a maximum of 54 slots (9 x 6).
+# Each character represents an item / slot.
+# '.' represents an empty slot.
+# Any other characters are shown below under ITEMS
+# Each character corresponds to an item.
+
+# This GUI is for when players run /island create.
+
+layout:
+  - "# # # # # # # # #"
+  - "# . . . p . . . #"
+  - "# . y . . . n . #"
+  - "# # # # # # # # #"
+```
+
+Each "entry" / line is a new row in the GUI.\
+There can only be a maximum of 54 slots in the inventory, in the form of 6 rows of 9 slots.\
+You cannot have rows of different lengths.
+
+Each letter corresponds to a new item.
+```yml
+# Border of the GUI.
+border:
+  char: "#"
+  material: "GRAY_STAINED_GLASS_PANE"
+  skull: ""
+  text: " " # No text
+  sound: "none"
+  pitch: 1
+  lore: "" # Empty lore
+```
+
+The `char` variable corresponds to the character in the `layout` variable (See [items](#items) for more information).
+If you specify a character that does not have a mapped item, it will be an empty slot. (In this case we use `.`)
+
+### GUI Items
+Each item in the GUI is defined in the `items` section.\
+These all vary for each GUI.
+
+```yml
+items:
+  # Confirm island creation
+  confirm:
+    char: "y" # This is the character to use in the LAYOUT!
+    material: "LIME_TERRACOTTA"
+    skull: "" # You can set custom skull textures (e.g. from minecraft-heads.com). 'material' MUST BE SET TO 'PLAYER_HEAD'. Placeholders: <player_skull> - Skull texture of the player.
+    text: "<green><bold>Confirm" # Supported placeholders: <player_name> - Player's Name
+    sound: "ui.button.click" # Sound played when the item is clicked. Set to 'none' to disable.
+    pitch: 1 # Pitch of the sound. Does not apply if 'sound' is 'none.'.
+    lore:
+      - "<yellow>Click to create an island!"
+
+  # 'Prompt' to create a new island.
+  prompt:
+    char: "p"
+    material: "PLAYER_HEAD"
+    skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQyZWJjNTA1ZGFjMGYxYjA5NjViNmYzZTQ2MGQ0MTkwZjM3NGVkZDY2NjNiMWE0ZDUwYWJjNDQ4MGI2OTE4OCJ9fX0="
+    text: "<yellow>Create a new island?"
+    sound: "none"
+    pitch: 0
+    lore:
+      - "<green><italic>Do you wish to create a new island?"
+
+  # Cancel island creation.
+  cancel:
+    char: "n"
+    material: "RED_TERRACOTTA"
+    skull: ""
+    text: "<red><bold>Cancel"
+    sound: "block.note_block.bass"
+    pitch: 4
+    lore:
+      - "<yellow>Click to cancel island creation."
+
+  # Border of the GUI.
+  border:
+    char: "#"
+    material: "GRAY_STAINED_GLASS_PANE"
+    skull: ""
+    text: " " # No text
+    sound: "none"
+    pitch: 1
+    lore: "" # Empty lore
+```
+Each aspect of the item can be customised, including the material, text, sound and lore.\
+
+`char` - The character in the [`layout`](#gui-layout) variable that this item corresponds to.
+
+`material` - The material of the item. It must be a valid material, according to the [Material Enum](https://jd.papermc.io/paper/1.21.1/org/bukkit/Material.html).
+
+`skull` - You can set custom skull textures, assuming the material is `PLAYER_HEAD`. You should paste the skin texture value (Base64). See [Custom Skulls](./custom-skulls) for more information.
+
+`text` - You can modify the display name of the item. This supports the [MiniMessage Format](https://docs.advntr.dev/minimessage/format.html) and (PlaceholderAPI) placeholders.
+
+`sound` - This allows you to trigger a sound when the item is clicked. This supports both custom sound identifiers, and [the built in sound effects](https://www.digminecraft.com/lists/sound_list_pc.php).
+
+`pitch` - This is the pitch of the `sound` variable, if configured.
+
+`lore` - This is the lore of the item. Each new entry for the variable is a new line of lore. Like the `text` variable, it supports the MiniMessage format.

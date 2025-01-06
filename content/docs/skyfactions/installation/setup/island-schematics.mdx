@@ -1,0 +1,31 @@
+---
+title: Islands
+description: Guide for setting up islands.
+---
+
+<Callout type="warn" title="Warning">
+  Read each part of this guide carefully otherwise your island schematics may not work as intended.
+</Callout>
+
+
+SkyFactions uses [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fastasyncworldedit.13932/) to paste in islands upon creation, in the form of WorldEdit schematics.\
+We do not recommend normal WorldEdit due to FAWE being much faster.
+
+<Callout type="warn" title="Note">
+  You must create the island schematics yourself!\
+  If you do not wish to create them, you can find schematics on websites such as PlanetMinecraft.
+</Callout>
+
+You must have two schematics: One for player islands and one for faction islands.\
+(You can alternatively have one island for both player islands & faction islands by settings the schematic file names in `config.yml` to the same filename)
+
+These schematics must be placed in the `plugins/SkyFactionsReborn/schematics` folder, and the names of the schematic files must be configured in the `config.yml` so that the plugin knows what file to use.
+
+<Callout type="warn" title="Note">
+  When making a selection and running `//copy`, ensure that the origin of the schematic (where you stand when you actually save the schematic) **must be where you want the player to spawn!**
+  The origin should bethe **centre** of each island region.
+</Callout>
+
+<Callout type="info" title="Tip">
+  After modifying configs, consider validating your `.yml` configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).
+</Callout>
