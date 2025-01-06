@@ -1,0 +1,6 @@
+{
+    "title": "Configuration",
+    "icon": "Settings",
+    "index": "index",
+    "pages": ["languages", "guis"]
+}

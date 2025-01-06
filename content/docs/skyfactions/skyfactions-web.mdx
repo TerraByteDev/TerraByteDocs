@@ -1,0 +1,163 @@
+---
+title: SkyFactions Web
+description: An installation/customization guide for the SkyFactions-web interface.
+icon: Globe
+---
+
+import { Step, Steps } from 'fumadocs-ui/components/steps';
+
+<Callout type="info" title="Note">
+  This section is a work-in-progress, as the web module is unfinished.
+
+  **This guide is written out-of-the-box for Ubuntu 22.04. If you use a different OS (e.g. Debian 12) you will have to do some research about how to install the dependencies.**
+</Callout>
+
+## Dependencies
+* PHP 8.1+
+* A database that supports MySQL (MariaDB, MySQL, PostgreSQL, etc.) that SkyFactions is linked to. **The web module does not support SQLite.**
+* Nginx (or similar, this guide is designed for Nginx).
+* Certbot (for SSL certificates, **optional**).
+
+### Example Dependencies Installation
+```bash
+# OPTIONAL: MariaDB repository setup script for Ubuntu 20.04.
+curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
+
+sudo apt update
+sudo apt install php-fpm php-mysql nginx certbot python3-certbot-nginx mariadb-server
+```
+
+## Required Ports
+* Nginx - 80 (for HTTP), 443 for HTTPS.
+* Database - 3306 (assuming you use the default port and your database is on a different server).
+
+## Installation
+
+<Steps>
+    <Step>
+        ### Clone Repository
+        Clone the GitHub repository to download all necessary files.
+        ```bash
+        git clone https://github.com/JerichoTorrent/SkyFactions-web.git
+        cd SkyFactions-web/web-interface
+        ```
+    </Step>
+
+    <Step>
+        ### Configure Database
+        After installing the necessary files, you can use a text editor like `nano` to edit `db_connect.php`, and enter your database connection details.
+        ```bash
+        sudo apt update && sudo apt install nano
+        nano db_connect.php
+        ```
+
+        <Callout type="warn" title="Note">
+            This must be the database that SkyFactions is configured to use, otherwise we have no way to fetch the data.
+        </Callout>
+    </Step>
+
+    <Step>
+        You can edit any other files such as `styles.css` to modify the appearance of the site as you please.\
+        However, it is not recommended to modify other PHP files unless you know what you are doing.
+    </Step>
+</Steps>
+
+## Webserver configuration
+
+<Steps>
+    <Step>
+        ### DNS Record Configuration
+        <Callout type="info" title="Note">
+            You can skip this step if you are not using a domain.
+        </Callout>
+
+        In your domain's DNS settings, create an A record with you intended subdomain (e.g. `sky` for `sky.example.com`), pointing to the public IP of the server that is running the web module.
+    </Step>
+
+    <Step>
+        ### Nginx Configuration
+        Create a new Nginx configuration file for the web interface, named after your domain.\
+        E.g.: `nano /etc/nginx/sites-available/sky.example.com`.
+
+        Paste the following text into the file.
+        ```nginx
+        server {
+            # This can also be a numerical IP.
+            # Replace `sky.example.com` with your domain / IP.
+            server_name sky.example.com; // [!code highlight]
+
+            # Root directory for the web files
+            root /home/ubuntu/SkyFactions-web/web-interface; // [!code highlight]
+            index index.php index.html index.htm;
+
+            # Access and error logs
+            access_log /var/log/nginx/skyfactions_access.log;
+            error_log /var/log/nginx/skyfactions_error.log;
+
+            # Serve static files directly
+            location / {
+                try_files $uri $uri/ =404;
+            }
+
+            # PHP file handling
+            location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+                # Adjust PHP version as necessary
+                fastcgi_pass unix:/var/run/php/php8.3-fpm.sock; // [!code highlight]
+            }
+        }
+        ```
+
+        After you have edited and saved the file with `ctrl+x` and `y`, create a symlink to the `sites-enabled` directory.
+        ```bash
+        ln -s /etc/nginx/sites-available/sky.example.com /etc/nginx/sites-enabled/
+        ```
+
+        Once your changes are complete, run `nginx -t` to check for syntax errors, and then `systemctl restart nginx` to apply the changes.
+
+        You can now visit your website at `http://<your ip address>/index.php` or `http://sky.example.com/index.php` if you have set up a domain.
+    </Step>
+
+    <Step>
+        ### Generate SSL Certificates
+        <Callout type="info" title="Note">
+            You can skip this step if you are not using a domain.
+        </Callout>
+
+        Now we can generate an SSL certificate for the site you have created.\
+        Ensure you have Certbot installed, and run the following command:
+        ```bash
+        sudo certbot --ngnix -d sky.example.com # Replace 'sky.example.com' with your domain.
+        ```
+
+        If the certificate creation is successful, your site should be up and running and you can access it via `https://sky.example.com/index.php`.
+    </Step>
+
+    <Step>
+        <Callout type="info" title="Note">
+            This step is optional for those who are using a domain with SSL certificates.
+        </Callout>
+
+        If you wish, you can schedule a cron job to automatically renew your SSL certificates.\
+        To do this, install `cron` and enter crontab.
+        ```bash
+        sudo apt install cron
+        sudo crontab -e
+        ```
+
+        At the bottom of the file, add the following line to renew the certificates every day at 11PM.
+        ```cron
+        0 23 * * * certbot renew --quiet --deploy-hook "systemctl restart nginx"
+        ```
+
+        In this job, Certbot will renew silently and will then restart Nginx to apply the changes.
+    </Step>
+</Steps>
+
+## Notes
+
+* Use your actual domain. Don't use example.com. You obviously don't own that domain.
+* If you use a different operating system, you will need to research how to install the dependencies manually. Google is your friend here!
+* If you get an error 404, your webserver config is incorrect.
+* If you get a 502 bad gateway, again, your webserver config is incorrect.
+* If you get a HTTP error on one of the sub-pages (anything other than index.php), check your browser console for details. It is likely that the database configuration is incorrect (see `db_connect.php`).

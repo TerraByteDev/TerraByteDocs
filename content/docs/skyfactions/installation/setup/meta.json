@@ -1,0 +1,5 @@
+{
+    "title": "Installation",
+    "index": "index",
+    "pages": ["database-setup", "world-setup", "island-schematics", "placeholders"]
+}

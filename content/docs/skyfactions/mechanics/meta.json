@@ -1,0 +1,6 @@
+{
+    "title": "Mechanics",
+    "index": "index",
+    "icon": "Glasses",
+    "pages": ["defences", "factions", "islands", "npcs", "obelisk"]
+}

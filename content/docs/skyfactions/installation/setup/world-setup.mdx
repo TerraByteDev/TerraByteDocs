@@ -1,0 +1,23 @@
+---
+title: "World Setup"
+description: Guide for setting up worlds.
+---
+
+SkyFactions requires at two separate worlds: One for the player islannds, and one for Faction islands.\
+Both island types must be in separate worlds due to the varied island schematics and region sizes for both island types, among other reasons.
+
+Currently, SkyFactions will **not** create these worlds for you. You must use a worlds management plugin such as [MyWorlds](https://www.spigotmc.org/resources/myworlds.39594/) to create the worlds.\
+By default, the player islands world name defaults to `player_islands` and `faction_islands` for faction islands. This is all configurable in the `config.yml`.
+
+<Callout type="warn" title="Warning">
+  We do not recommend using MultiVerse. They have various bugs and certain thinks (such as how inventories are stored in a proprietary format) that make them very difficult to migrate from.
+</Callout>
+
+To create void worlds with MyWorlds, you can use the following command:\
+`/myworlds create WORLD_NAME/flat::minecraft:air;minecraft:the_void;nostructures`
+
+This command will vary for your preferred world manager - You will need to run the command twice, once for player islands and once for faction islands.
+
+<Callout type="info" title="Tip">
+  After modifying configs, consider validating your `.yml` configs through an online YAML validator such as [YAMLlint](https://www.yamllint.com/).
+</Callout>
