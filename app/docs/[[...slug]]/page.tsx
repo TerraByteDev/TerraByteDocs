@@ -8,6 +8,8 @@ import {
 import { notFound } from 'next/navigation';
 import defaultMdxComponents from 'fumadocs-ui/mdx';
 
+export const runtime = 'edge';
+
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
 }) {
