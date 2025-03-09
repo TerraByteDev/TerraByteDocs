@@ -37,41 +37,6 @@ export const baseOptions: BaseLayoutProps = {
   },
   links: [
     {
-      type: 'menu',
-      text: 'Documentation',
-      url: '/docs',
-      items: [
-        {
-          text: 'Getting Started',
-          description: 'New to Minecraft server administration? Start here.',
-          url: '/docs/getting-started',
-          menu: {
-            className: 'md:row-span-2',
-          }
-        },
-        {
-          text: 'Server Setup',
-          description: 'Learn how to set up and configure your server.',
-          url: '/docs/server-setup',
-        },
-        {
-          text: 'Security',
-          description: 'Protect your server from attacks and vulnerabilities.',
-          url: '/docs/security',
-        },
-        {
-          text: 'Plugin Guide',
-          description: 'Essential plugins and configuration guides.',
-          url: '/docs/plugins',
-        },
-        {
-          text: 'Troubleshooting',
-          description: 'Common issues and how to fix them.',
-          url: '/docs/troubleshooting',
-        }
-      ],
-    },
-    {
       text: 'About Us',
       url: '/docs/about-us',
       active: 'url',
